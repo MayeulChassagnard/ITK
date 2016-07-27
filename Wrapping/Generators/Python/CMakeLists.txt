@@ -76,6 +76,11 @@ endmacro()
 # the / path separator into \ on windows if needed.
 if(NOT EXTERNAL_WRAP_ITK_PROJECT)
 
+  if(BUILD_SHARED_LIBS)
+    set(CONFIG_SHARED_LIBS "True")
+  else()
+    set(CONFIG_SHARED_LIBS "False")
+  endif()
   if(CMAKE_CONFIGURATION_TYPES)
     set(CONFIG_PYTHON_CONFIGPY_DIR "../Configuration")
 
