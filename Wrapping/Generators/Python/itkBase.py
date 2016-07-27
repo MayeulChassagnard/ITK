@@ -227,7 +227,7 @@ class LibraryLoader(object):
     library can be properly loaded. This involves setting paths defined in
     itkConfig."""
 
-    def setup(self):
+    def setup(self, dlopenGlobal=False):
         self.old_cwd = os.getcwd()
         try:
             os.chdir(itkConfig.swig_lib)
@@ -237,8 +237,26 @@ class LibraryLoader(object):
         self.old_path = sys.path
         sys.path = [itkConfig.swig_lib, itkConfig.swig_py, itkConfig.path] + sys.path
 
+        if not itkConfig.shared_libs and os.name == 'posix' and dlopenGlobal:
+            self.old_dlopenflags = sys.getdlopenflags()
+            if sys.version_info >= (3, 0):
+                from os import RTLD_NOW, RTLD_GLOBAL
+            else:
+                try:
+                    import dl
+                    from dl import RTLD_NOW, RTLD_GLOBAL
+                except ImportError:
+                    RTLD_NOW = 2
+                    from ctypes import RTLD_GLOBAL
+            sys.setdlopenflags(RTLD_NOW | RTLD_GLOBAL)
+
     def load(self, name):
-        self.setup()
+        dlopenGlobal = False
+        if name == 'ITKCommonPython':
+            dlopenGlobal = True
+
+        self.setup(dlopenGlobal)
+
         try:
             if sys.version_info >= (3, 4):
                 return importlib.import_module(name)
@@ -253,11 +271,13 @@ class LibraryLoader(object):
                 # Since we may exit via an exception, close fp explicitly.
                 if fp:
                     fp.close()
-            self.cleanup()
+            self.cleanup(dlopenGlobal)
 
-    def cleanup(self):
+    def cleanup(self, dlopenGlobal=False):
         os.chdir(self.old_cwd)
         sys.path = self.old_path
+        if not itkConfig.shared_libs and os.name == 'posix' and dlopenGlobal:
+            sys.setdlopenflags(self.old_dlopenflags)
 
 
 # Make a list of all know modules (described in *Config.py files in the

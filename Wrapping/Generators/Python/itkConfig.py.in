@@ -85,5 +85,8 @@ if 'WRAPITK_PYTHON_PATH' in os.environ:
 
 doxygen_root = normalized_path('../Doc')
 
+# Was ITK built with the CMake BUILD_SHARED_LIBS variable set to ON?
+shared_libs = @CONFIG_SHARED_LIBS@
+
 del normalized_path
 del os
