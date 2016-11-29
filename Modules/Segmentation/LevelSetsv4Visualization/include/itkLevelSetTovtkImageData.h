@@ -35,14 +35,14 @@
 namespace itk
 {
 template< typename TLevelSet >
-class LevelSetTovtkImageData
+class ITKLevelSetsv4Visualization_TEMPLATE_EXPORT LevelSetTovtkImageData
   {};
 
 /** \class LevelSetTovtkImageData
  *  \ingroup ITKLevelSetsv4Visualization
  */
 template< typename TImage >
-class LevelSetTovtkImageData< LevelSetDenseImage< TImage > > :
+class ITKLevelSetsv4Visualization_TEMPLATE_EXPORT LevelSetTovtkImageData< LevelSetDenseImage< TImage > > :
     public LevelSetTovtkImageDataBase< LevelSetDenseImage< TImage > >
 {
 public:
@@ -82,7 +82,7 @@ private:
 
 // -----------------------------------------------------------------------------
 template< typename TOutput, unsigned int VDimension >
-class LevelSetTovtkImageData< WhitakerSparseLevelSetImage< TOutput, VDimension > > :
+class ITKLevelSetsv4Visualization_TEMPLATE_EXPORT LevelSetTovtkImageData< WhitakerSparseLevelSetImage< TOutput, VDimension > > :
     public LevelSetTovtkImageDataBase< WhitakerSparseLevelSetImage< TOutput, VDimension > >
 {
 public:
@@ -126,7 +126,7 @@ private:
 
 // -----------------------------------------------------------------------------
 template< unsigned int VDimension >
-class LevelSetTovtkImageData< ShiSparseLevelSetImage< VDimension > > :
+class ITKLevelSetsv4Visualization_TEMPLATE_EXPORT LevelSetTovtkImageData< ShiSparseLevelSetImage< VDimension > > :
     public LevelSetTovtkImageDataBase< ShiSparseLevelSetImage< VDimension > >
 {
 public:
@@ -176,7 +176,7 @@ private:
 
 // -----------------------------------------------------------------------------
 template< unsigned int VDimension >
-class LevelSetTovtkImageData< MalcolmSparseLevelSetImage< VDimension > > :
+class ITKLevelSetsv4Visualization_TEMPLATE_EXPORT LevelSetTovtkImageData< MalcolmSparseLevelSetImage< VDimension > > :
     public LevelSetTovtkImageDataBase< MalcolmSparseLevelSetImage< VDimension > >
 {
 public:

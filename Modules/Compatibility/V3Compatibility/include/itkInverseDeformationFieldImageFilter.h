@@ -67,7 +67,7 @@ namespace itk
  * \ingroup ITKV3Compatibility
  */
 template< typename TInputImage, typename TOutputImage >
-class InverseDeformationFieldImageFilter:
+class ITKV3Compatibility_TEMPLATE_EXPORT InverseDeformationFieldImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

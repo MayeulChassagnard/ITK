@@ -52,7 +52,7 @@ namespace itk {
  * \ingroup ITKLabelMap
  */
 template<typename TInputImage>
-class BinaryReconstructionByDilationImageFilter :
+class ITKLabelMap_TEMPLATE_EXPORT BinaryReconstructionByDilationImageFilter :
     public ImageToImageFilter<TInputImage, TInputImage>
 {
 public:

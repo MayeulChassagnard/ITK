@@ -59,7 +59,7 @@ namespace itk
  * \ingroup ITKLevelSets
  */
 template< typename TImageType, typename TFeatureImageType = TImageType >
-class CurvesLevelSetFunction:
+class ITKLevelSets_TEMPLATE_EXPORT CurvesLevelSetFunction:
   public SegmentationLevelSetFunction< TImageType, TFeatureImageType >
 {
 public:

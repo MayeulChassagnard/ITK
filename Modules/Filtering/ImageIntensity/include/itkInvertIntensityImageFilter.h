@@ -30,7 +30,7 @@ namespace Functor
  * \ingroup ITKImageIntensity
  */
 template< typename TInput, typename  TOutput >
-class InvertIntensityTransform
+class ITKImageIntensity_TEMPLATE_EXPORT InvertIntensityTransform
 {
 public:
   typedef typename NumericTraits< TInput >::RealType RealType;
@@ -86,7 +86,7 @@ private:
  * \endwiki
  */
 template< typename  TInputImage, typename  TOutputImage = TInputImage >
-class InvertIntensityImageFilter:
+class ITKImageIntensity_TEMPLATE_EXPORT InvertIntensityImageFilter:
   public
   UnaryFunctorImageFilter< TInputImage, TOutputImage,
                            Functor::InvertIntensityTransform<

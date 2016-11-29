@@ -43,7 +43,7 @@ template< unsigned int NDimensions,
           typename TMeshTraits =
             DefaultStaticMeshTraits< PixelType, NDimensions, NDimensions >
           >
-class MetaSceneConverter
+class ITKSpatialObjects_TEMPLATE_EXPORT MetaSceneConverter
 {
 public:
 

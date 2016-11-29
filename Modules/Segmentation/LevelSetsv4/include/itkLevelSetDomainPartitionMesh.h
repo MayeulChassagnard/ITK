@@ -29,7 +29,7 @@ namespace itk
  *  \ingroup ITKLevelSetsv4
  */
 template< typename TMesh >
-class LevelSetDomainPartitionMesh :
+class ITKLevelSetsv4_TEMPLATE_EXPORT LevelSetDomainPartitionMesh :
   public LevelSetDomainPartitionBase< TMesh >
 {
 public:

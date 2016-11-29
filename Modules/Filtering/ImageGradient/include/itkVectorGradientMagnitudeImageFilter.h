@@ -136,7 +136,7 @@ template< typename TInputImage,
           typename TOutputImage = Image< TRealType,
                                          TInputImage::ImageDimension >
           >
-class VectorGradientMagnitudeImageFilter:
+class ITKImageGradient_TEMPLATE_EXPORT VectorGradientMagnitudeImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

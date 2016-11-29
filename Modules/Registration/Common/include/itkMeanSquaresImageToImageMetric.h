@@ -36,7 +36,7 @@ namespace itk
  * \endwiki
  */
 template< typename TFixedImage, typename TMovingImage >
-class MeanSquaresImageToImageMetric:
+class ITKRegistrationCommon_TEMPLATE_EXPORT MeanSquaresImageToImageMetric:
   public ImageToImageMetric< TFixedImage, TMovingImage >
 {
 public:

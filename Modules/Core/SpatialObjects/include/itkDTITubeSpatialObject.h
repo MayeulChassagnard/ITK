@@ -39,7 +39,7 @@ namespace itk
  */
 
 template< unsigned int TDimension = 3 >
-class DTITubeSpatialObject:
+class ITKSpatialObjects_TEMPLATE_EXPORT DTITubeSpatialObject:
   public TubeSpatialObject< TDimension,
                             DTITubeSpatialObjectPoint< TDimension >  >
 {

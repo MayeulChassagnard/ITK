@@ -33,7 +33,7 @@ namespace Statistics
  */
 
 template<typename TMeasurementVector, typename ScalarType>
-class ProductInputFunction : public InputFunctionBase<TMeasurementVector, ScalarType>
+class ITKNeuralNetworks_TEMPLATE_EXPORT ProductInputFunction : public InputFunctionBase<TMeasurementVector, ScalarType>
 {
 public:
 

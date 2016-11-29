@@ -41,7 +41,7 @@ namespace itk
  */
 
 template< unsigned int NDimensions = 3 >
-class MetaFEMObjectConverter :
+class ITKFEM_TEMPLATE_EXPORT MetaFEMObjectConverter :
     public MetaConverterBase< NDimensions >
 {
 public:

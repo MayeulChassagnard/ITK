@@ -46,7 +46,7 @@ namespace itk
  * \ingroup ITKLabelVoting
  */
 template< typename TInputImage, typename TOutputImage >
-class BinaryMedianImageFilter:
+class ITKLabelVoting_TEMPLATE_EXPORT BinaryMedianImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

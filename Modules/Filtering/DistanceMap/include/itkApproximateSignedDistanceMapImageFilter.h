@@ -72,7 +72,7 @@ namespace itk
  */
 
 template< typename TInputImage, typename TOutputImage >
-class ApproximateSignedDistanceMapImageFilter:public ImageToImageFilter< TInputImage, TOutputImage >
+class ITKDistanceMap_TEMPLATE_EXPORT ApproximateSignedDistanceMapImageFilter:public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:
   /** Standard typedefs */

@@ -40,7 +40,7 @@ namespace fem
  */
 
 template <typename TInputImage>
-class ImageToRectilinearFEMObjectFilter : public ProcessObject
+class ITKFEM_TEMPLATE_EXPORT ImageToRectilinearFEMObjectFilter : public ProcessObject
 {
 public:
   /** Standard class typedefs. */

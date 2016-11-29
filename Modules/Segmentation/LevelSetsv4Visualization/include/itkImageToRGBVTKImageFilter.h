@@ -31,7 +31,7 @@ namespace itk
  * \ingroup ITKLevelSetsv4Visualization
  */
 template< typename TInputImage >
-class ImageToRGBVTKImageFilter:public ProcessObject
+class ITKLevelSetsv4Visualization_TEMPLATE_EXPORT ImageToRGBVTKImageFilter:public ProcessObject
 {
 public:
   /** Standard class typedefs. */

@@ -52,7 +52,7 @@ namespace itk
  */
 
 template< typename TInputImage, typename TOutputImage, typename TCompare >
-class ReconstructionImageFilter:
+class ITKMathematicalMorphology_TEMPLATE_EXPORT ReconstructionImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

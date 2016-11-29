@@ -92,7 +92,7 @@ namespace Statistics
 
 template< typename TImageType,
           typename THistogramFrequencyContainer = DenseFrequencyContainer2 >
-class ScalarImageToCooccurrenceMatrixFilter:public ProcessObject
+class ITKStatistics_TEMPLATE_EXPORT ScalarImageToCooccurrenceMatrixFilter:public ProcessObject
 {
 public:
   /** Standard typedefs */

@@ -46,7 +46,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage, typename TOutputImage >
-class NormalizeImageFilter:
+class ITKImageIntensity_TEMPLATE_EXPORT NormalizeImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

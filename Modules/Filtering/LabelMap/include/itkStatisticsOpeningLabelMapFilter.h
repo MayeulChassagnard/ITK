@@ -42,7 +42,7 @@ namespace itk
  * \ingroup ITKLabelMap
  */
 template< typename TImage >
-class StatisticsOpeningLabelMapFilter:
+class ITKLabelMap_TEMPLATE_EXPORT StatisticsOpeningLabelMapFilter:
   public ShapeOpeningLabelMapFilter< TImage >
 {
 public:

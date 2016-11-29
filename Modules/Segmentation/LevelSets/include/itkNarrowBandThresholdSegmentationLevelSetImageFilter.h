@@ -83,7 +83,7 @@ namespace itk
 template< typename TInputImage,
           typename TFeatureImage,
           typename TOutputPixelType = float >
-class NarrowBandThresholdSegmentationLevelSetImageFilter:
+class ITKLevelSets_TEMPLATE_EXPORT NarrowBandThresholdSegmentationLevelSetImageFilter:
   public NarrowBandLevelSetImageFilter< TInputImage, TFeatureImage,
                                         TOutputPixelType, Image< TOutputPixelType,
                                                                   TInputImage ::

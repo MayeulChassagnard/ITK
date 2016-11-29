@@ -57,7 +57,7 @@ namespace itk
  * \ingroup ITKImageFeature
  */
 template< typename TInputImage, typename TOutputImage >
-class HessianToObjectnessMeasureImageFilter:public
+class ITKImageFeature_TEMPLATE_EXPORT HessianToObjectnessMeasureImageFilter:public
   ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

@@ -75,7 +75,7 @@ template<
   typename TCoordRep = float,
   typename TOutputType = CovariantVector<double, TInputImage::ImageDimension >
   >
-class CentralDifferenceImageFunction:
+class ITKImageFunction_TEMPLATE_EXPORT CentralDifferenceImageFunction:
   public ImageFunction< TInputImage,
                         TOutputType,
                         TCoordRep >

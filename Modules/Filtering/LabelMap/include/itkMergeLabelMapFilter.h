@@ -50,7 +50,7 @@ namespace itk
  * \ingroup ITKLabelMap
  */
 template< typename TImage >
-class MergeLabelMapFilter:
+class ITKLabelMap_TEMPLATE_EXPORT MergeLabelMapFilter:
   public InPlaceLabelMapFilter< TImage >
 {
 public:

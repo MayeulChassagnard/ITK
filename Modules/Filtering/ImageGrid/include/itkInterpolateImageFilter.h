@@ -41,7 +41,7 @@ namespace itk
  * \ingroup ITKImageGrid
  */
 template< typename TInputImage, typename TOutputImage >
-class InterpolateImageFilter:
+class ITKImageGrid_TEMPLATE_EXPORT InterpolateImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

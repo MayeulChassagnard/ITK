@@ -47,7 +47,7 @@ namespace itk
  */
 
 template< typename TInputImage, typename TOutputImage, typename TFilter >
-class MiniPipelineSeparableImageFilter:
+class ITKReview_TEMPLATE_EXPORT MiniPipelineSeparableImageFilter:
   public BoxImageFilter< TInputImage, TOutputImage >
 {
 public:

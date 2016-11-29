@@ -50,7 +50,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage, typename TOutputImage >
-class WrapPadImageFilter:
+class ITKImageGrid_TEMPLATE_EXPORT WrapPadImageFilter:
   public PadImageFilter< TInputImage, TOutputImage >
 {
 public:

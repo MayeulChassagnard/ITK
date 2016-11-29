@@ -36,7 +36,7 @@ namespace itk
  * \ingroup ITKVideoIO
  */
 template< typename TInputVideoStream >
-class VideoFileWriter : public TemporalProcessObject
+class ITKVideoIO_TEMPLATE_EXPORT VideoFileWriter : public TemporalProcessObject
 {
 public:
 

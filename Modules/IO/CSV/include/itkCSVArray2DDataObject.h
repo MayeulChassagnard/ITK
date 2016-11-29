@@ -43,7 +43,7 @@ namespace itk
  */
 
 template <typename TData>
-class CSVArray2DDataObject:public DataObject
+class ITKIOCSV_TEMPLATE_EXPORT CSVArray2DDataObject:public DataObject
 {
 public:
   /* Standard class typedefs */

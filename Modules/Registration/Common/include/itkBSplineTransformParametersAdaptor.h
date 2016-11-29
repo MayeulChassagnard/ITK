@@ -62,7 +62,7 @@ namespace itk
  * \ingroup ITKRegistrationCommon
  */
 template<typename TTransform>
-class BSplineTransformParametersAdaptor
+class ITKRegistrationCommon_TEMPLATE_EXPORT BSplineTransformParametersAdaptor
 : public TransformParametersAdaptor<TTransform>
 {
 public:

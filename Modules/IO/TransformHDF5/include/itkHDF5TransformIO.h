@@ -79,7 +79,7 @@ struct ITKIOTransformHDF5_EXPORT HDF5CommonPathNames
  * \ingroup ITKIOTransformHDF5
  */
 template<typename TParametersValueType>
-class ITKIOTransformBase_TEMPLATE_EXPORT HDF5TransformIOTemplate:public TransformIOBaseTemplate<TParametersValueType>,
+class ITKIOTransformHDF5_TEMPLATE_EXPORT ITKIOTransformBase_TEMPLATE_EXPORT HDF5TransformIOTemplate:public TransformIOBaseTemplate<TParametersValueType>,
 private HDF5CommonPathNames
 {
 public:

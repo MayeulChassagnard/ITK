@@ -52,7 +52,7 @@ namespace itk {
  * \endwiki
  */
 template<typename TInputImage, typename TOutputImage>
-class NormalizeToConstantImageFilter :
+class ITKImageIntensity_TEMPLATE_EXPORT NormalizeToConstantImageFilter :
     public ImageToImageFilter<TInputImage, TOutputImage>
 {
 public:

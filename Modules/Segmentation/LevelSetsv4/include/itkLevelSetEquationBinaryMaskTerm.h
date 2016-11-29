@@ -41,7 +41,7 @@ namespace itk
  */
 template< typename TInput, // Input image or mesh
           typename TLevelSetContainer >
-class LevelSetEquationBinaryMaskTerm :
+class ITKLevelSetsv4_TEMPLATE_EXPORT LevelSetEquationBinaryMaskTerm :
     public LevelSetEquationTermBase< TInput, TLevelSetContainer >
 {
 public:

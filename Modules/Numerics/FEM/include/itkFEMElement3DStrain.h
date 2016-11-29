@@ -44,7 +44,7 @@ namespace fem
  * \ingroup ITKFEM
  */
 template <typename TBaseClass = Element>
-class Element3DStrain : public TBaseClass
+class ITKFEM_TEMPLATE_EXPORT Element3DStrain : public TBaseClass
 {
 public:
   /** Standard class typedefs. */

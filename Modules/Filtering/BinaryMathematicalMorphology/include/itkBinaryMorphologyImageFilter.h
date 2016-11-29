@@ -100,7 +100,7 @@ namespace itk
  * \ingroup ITKBinaryMathematicalMorphology
  */
 template< typename TInputImage, typename TOutputImage, typename TKernel >
-class BinaryMorphologyImageFilter:
+class ITKBinaryMathematicalMorphology_TEMPLATE_EXPORT BinaryMorphologyImageFilter:
   public KernelImageFilter< TInputImage, TOutputImage, TKernel >
 {
 public:

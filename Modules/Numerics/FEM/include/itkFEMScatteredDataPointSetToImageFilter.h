@@ -124,7 +124,7 @@ namespace fem
  */
 
 template<typename TInputPointSet, typename TInputMesh, typename TOutputImage, typename TInputConfidencePointSet, typename TInputTensorPointSet>
-class FEMScatteredDataPointSetToImageFilter:
+class ITKFEM_TEMPLATE_EXPORT FEMScatteredDataPointSetToImageFilter:
   public PointSetToImageFilter< TInputPointSet, TOutputImage >
 {
 public:

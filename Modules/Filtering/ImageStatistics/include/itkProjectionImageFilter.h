@@ -51,7 +51,7 @@ namespace itk
  * \ingroup ITKImageStatistics
  */
 template< typename TInputImage, typename TOutputImage, typename TAccumulator >
-class ProjectionImageFilter:
+class ITKImageStatistics_TEMPLATE_EXPORT ProjectionImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

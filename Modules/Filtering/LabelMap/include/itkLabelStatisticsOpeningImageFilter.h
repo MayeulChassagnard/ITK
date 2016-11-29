@@ -43,7 +43,7 @@ namespace itk
  * \ingroup ITKLabelMap
  */
 template< typename TInputImage, typename TFeatureImage >
-class LabelStatisticsOpeningImageFilter:
+class ITKLabelMap_TEMPLATE_EXPORT LabelStatisticsOpeningImageFilter:
   public ImageToImageFilter< TInputImage, TInputImage >
 {
 public:

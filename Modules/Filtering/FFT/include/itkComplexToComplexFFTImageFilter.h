@@ -49,7 +49,7 @@ namespace itk
  * \ingroup ITKFFT
  */
 template< typename TImage >
-class ComplexToComplexFFTImageFilter:
+class ITKFFT_TEMPLATE_EXPORT ComplexToComplexFFTImageFilter:
   public ImageToImageFilter< TImage, TImage >
 {
 public:

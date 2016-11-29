@@ -34,7 +34,7 @@ namespace itk
  * \ingroup ITKQuadEdgeMesh
  */
 template< typename TMesh >
-class QuadEdgeMeshScalarDataVTKPolyDataWriter:public VTKPolyDataWriter< TMesh >
+class ITKQuadEdgeMesh_TEMPLATE_EXPORT QuadEdgeMeshScalarDataVTKPolyDataWriter:public VTKPolyDataWriter< TMesh >
 {
 public:
   typedef QuadEdgeMeshScalarDataVTKPolyDataWriter Self;

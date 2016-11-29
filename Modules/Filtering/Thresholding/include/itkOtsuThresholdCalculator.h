@@ -41,7 +41,7 @@ namespace itk
  * \ingroup ITKThresholding
  */
 template <typename THistogram, typename TOutput=double>
-class OtsuThresholdCalculator : public HistogramThresholdCalculator<THistogram, TOutput>
+class ITKThresholding_TEMPLATE_EXPORT OtsuThresholdCalculator : public HistogramThresholdCalculator<THistogram, TOutput>
 {
 public:
   /** Standard class typedefs. */

@@ -43,7 +43,7 @@ namespace itk
  * \ingroup ITKImageGrid
  */
 template< typename TInputImage, typename TOutputImage = TInputImage >
-class CyclicShiftImageFilter:
+class ITKImageGrid_TEMPLATE_EXPORT CyclicShiftImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

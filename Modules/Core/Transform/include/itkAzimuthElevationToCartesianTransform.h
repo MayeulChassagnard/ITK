@@ -82,7 +82,7 @@ namespace itk
  */
 template<typename TParametersValueType=double,
          unsigned int NDimensions = 3>
-class AzimuthElevationToCartesianTransform:
+class ITKTransform_TEMPLATE_EXPORT AzimuthElevationToCartesianTransform:
   public AffineTransform<TParametersValueType, NDimensions>
 {
 public:

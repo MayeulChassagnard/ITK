@@ -72,7 +72,7 @@ namespace itk
  * \ingroup ITKLabelVoting
  */
 template< typename TInputImage, typename TOutputImage = TInputImage >
-class LabelVotingImageFilter:
+class ITKLabelVoting_TEMPLATE_EXPORT LabelVotingImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

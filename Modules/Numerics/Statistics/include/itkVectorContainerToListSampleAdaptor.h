@@ -43,7 +43,7 @@ namespace Statistics
  */
 
 template< typename TVectorContainer >
-class VectorContainerToListSampleAdaptor:
+class ITKStatistics_TEMPLATE_EXPORT VectorContainerToListSampleAdaptor:
   public ListSample< typename TVectorContainer::Element >
 {
 public:

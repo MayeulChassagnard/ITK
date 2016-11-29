@@ -35,7 +35,7 @@ namespace itk
  * \ingroup ITKLevelSets
  */
 template< typename TImageType >
-class NormalBandNode
+class ITKLevelSets_TEMPLATE_EXPORT NormalBandNode
 {
 public:
   /** The scalar image type. */
@@ -153,7 +153,7 @@ public:
  * \ingroup ITKLevelSets
  */
 template< typename TInputImage, typename TOutputImage >
-class SparseFieldFourthOrderLevelSetImageFilter:
+class ITKLevelSets_TEMPLATE_EXPORT SparseFieldFourthOrderLevelSetImageFilter:
   public SparseFieldLevelSetImageFilter< TInputImage, TOutputImage >
 {
 public:

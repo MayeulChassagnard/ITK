@@ -40,7 +40,7 @@ namespace itk
  * \ingroup ITKImageFunction
  */
 template< typename TInputImage, typename TCoordRep = double >
-class VectorLinearInterpolateImageFunction:
+class ITKImageFunction_TEMPLATE_EXPORT VectorLinearInterpolateImageFunction:
   public VectorInterpolateImageFunction< TInputImage, TCoordRep >
 {
 public:

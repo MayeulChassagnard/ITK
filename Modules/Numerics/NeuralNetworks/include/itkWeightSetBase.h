@@ -37,7 +37,7 @@ namespace Statistics
  */
 
 template<typename TMeasurementVector, typename TTargetVector>
-class WeightSetBase : public LightProcessObject
+class ITKNeuralNetworks_TEMPLATE_EXPORT WeightSetBase : public LightProcessObject
 {
 public:
 

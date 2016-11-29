@@ -53,7 +53,7 @@ namespace itk
  * \ingroup ITKLevelSets
  */
 template< typename TImageType, typename TFeatureImageType = TImageType >
-class ThresholdSegmentationLevelSetFunction:
+class ITKLevelSets_TEMPLATE_EXPORT ThresholdSegmentationLevelSetFunction:
   public SegmentationLevelSetFunction< TImageType, TFeatureImageType >
 {
 public:

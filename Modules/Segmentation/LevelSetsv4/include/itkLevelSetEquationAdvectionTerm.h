@@ -49,7 +49,7 @@ namespace itk
  */
 template< typename TInput, // Input image or mesh
           typename TLevelSetContainer >
-class LevelSetEquationAdvectionTerm :
+class ITKLevelSetsv4_TEMPLATE_EXPORT LevelSetEquationAdvectionTerm :
     public LevelSetEquationTermBase< TInput, TLevelSetContainer >
 {
 public:

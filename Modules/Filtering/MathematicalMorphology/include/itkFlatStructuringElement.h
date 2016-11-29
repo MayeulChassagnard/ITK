@@ -86,7 +86,7 @@ namespace itk
  */
 
 template< unsigned int VDimension >
-class FlatStructuringElement:public Neighborhood< bool, VDimension >
+class ITKMathematicalMorphology_TEMPLATE_EXPORT FlatStructuringElement:public Neighborhood< bool, VDimension >
 {
 public:
   /** Standard class typedefs. */

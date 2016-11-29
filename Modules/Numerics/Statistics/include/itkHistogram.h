@@ -74,7 +74,7 @@ namespace Statistics
 
 template< typename TMeasurement = float,
           typename TFrequencyContainer = DenseFrequencyContainer2 >
-class Histogram:
+class ITKStatistics_TEMPLATE_EXPORT Histogram:
   public Sample< Array< TMeasurement > >
 {
 public:

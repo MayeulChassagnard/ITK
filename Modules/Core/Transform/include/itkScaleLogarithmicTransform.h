@@ -33,7 +33,7 @@ namespace itk
  */
 template<typename TParametersValueType=float,
   unsigned int NDimensions = 3>
-class ScaleLogarithmicTransform :
+class ITKTransform_TEMPLATE_EXPORT ScaleLogarithmicTransform :
   public ScaleTransform<TParametersValueType, NDimensions>
 {
 public:

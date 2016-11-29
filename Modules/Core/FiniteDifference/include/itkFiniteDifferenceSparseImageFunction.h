@@ -44,7 +44,7 @@ namespace itk
  * \ingroup ITKFiniteDifference
  */
 template< typename TSparseImageType >
-class FiniteDifferenceSparseImageFunction:
+class ITKFiniteDifference_TEMPLATE_EXPORT FiniteDifferenceSparseImageFunction:
   public FiniteDifferenceFunction< TSparseImageType >
 {
 public:

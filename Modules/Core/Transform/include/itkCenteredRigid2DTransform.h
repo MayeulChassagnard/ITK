@@ -49,7 +49,7 @@ namespace itk
  * \ingroup ITKTransform
  */
 template<typename TParametersValueType=double>
-class CenteredRigid2DTransform :
+class ITKTransform_TEMPLATE_EXPORT CenteredRigid2DTransform :
   public Rigid2DTransform<TParametersValueType>
 {
 public:

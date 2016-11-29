@@ -32,7 +32,7 @@ namespace itk
  *  \ingroup ITKLevelSetsv4
  */
 template< typename TMesh >
-class LevelSetQuadEdgeMesh :
+class ITKLevelSetsv4_TEMPLATE_EXPORT LevelSetQuadEdgeMesh :
     public LevelSetBase<
       typename TMesh::PointIdentifier,
       TMesh::PointDimension,

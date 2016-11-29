@@ -51,7 +51,7 @@ namespace itk
  * \ingroup ITKMathematicalMorphology
  */
 template< typename TInputImage, typename TOutputImage >
-class DoubleThresholdImageFilter:
+class ITKMathematicalMorphology_TEMPLATE_EXPORT DoubleThresholdImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

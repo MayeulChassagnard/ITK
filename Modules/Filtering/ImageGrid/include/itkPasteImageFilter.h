@@ -45,7 +45,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage, typename TSourceImage = TInputImage, typename TOutputImage = TInputImage >
-class PasteImageFilter:
+class ITKImageGrid_TEMPLATE_EXPORT PasteImageFilter:
   public InPlaceImageFilter< TInputImage, TOutputImage >
 {
 public:

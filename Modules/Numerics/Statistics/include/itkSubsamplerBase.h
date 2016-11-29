@@ -43,7 +43,7 @@ namespace Statistics {
  */
 
 template < typename TSample >
-class SubsamplerBase : public Object
+class ITKStatistics_TEMPLATE_EXPORT SubsamplerBase : public Object
 {
 public:
   /** Standard class typedefs */

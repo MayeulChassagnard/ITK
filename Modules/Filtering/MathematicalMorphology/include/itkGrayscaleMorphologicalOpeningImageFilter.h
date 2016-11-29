@@ -48,7 +48,7 @@ namespace itk
  */
 
 template< typename TInputImage, typename TOutputImage, typename TKernel >
-class GrayscaleMorphologicalOpeningImageFilter:
+class ITKMathematicalMorphology_TEMPLATE_EXPORT GrayscaleMorphologicalOpeningImageFilter:
   public KernelImageFilter< TInputImage, TOutputImage, TKernel >
 {
 public:

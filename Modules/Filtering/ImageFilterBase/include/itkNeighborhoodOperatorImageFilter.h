@@ -48,7 +48,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage, typename TOutputImage, typename TOperatorValueType = typename TOutputImage::PixelType >
-class NeighborhoodOperatorImageFilter:
+class ITKImageFilterBase_TEMPLATE_EXPORT NeighborhoodOperatorImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

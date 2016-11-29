@@ -41,7 +41,7 @@ namespace itk
  * \ingroup ITKRegistrationCommon
  */
 template< typename TFixedPointSet, typename TMovingImage >
-class NormalizedCorrelationPointSetToImageMetric:
+class ITKRegistrationCommon_TEMPLATE_EXPORT NormalizedCorrelationPointSetToImageMetric:
   public PointSetToImageMetric< TFixedPointSet, TMovingImage >
 {
 public:

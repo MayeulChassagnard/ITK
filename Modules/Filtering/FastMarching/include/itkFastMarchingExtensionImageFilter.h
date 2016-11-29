@@ -54,7 +54,7 @@ template<
   unsigned int VAuxDimension = 1,
   typename TSpeedImage = Image< float,  TLevelSet ::ImageDimension >
   >
-class FastMarchingExtensionImageFilter:
+class ITKFastMarching_TEMPLATE_EXPORT FastMarchingExtensionImageFilter:
   public FastMarchingImageFilter< TLevelSet, TSpeedImage >
 {
 public:

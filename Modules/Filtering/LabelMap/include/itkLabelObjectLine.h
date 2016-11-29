@@ -39,7 +39,7 @@ namespace itk
  * \ingroup ITKLabelMap
  */
 template< unsigned int VImageDimension >
-class LabelObjectLine
+class ITKLabelMap_TEMPLATE_EXPORT LabelObjectLine
 {
 public:
   itkStaticConstMacro(ImageDimension, unsigned int, VImageDimension);

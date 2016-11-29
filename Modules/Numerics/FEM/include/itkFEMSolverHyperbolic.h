@@ -32,7 +32,7 @@ namespace fem {
  */
 
 template <unsigned int TDimension = 3>
-class SolverHyperbolic : public Solver<TDimension>
+class ITKFEM_TEMPLATE_EXPORT SolverHyperbolic : public Solver<TDimension>
 {
 public:
   typedef SolverHyperbolic         Self;

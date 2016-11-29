@@ -68,7 +68,7 @@ namespace itk
 
 template< typename TInputImage,
           typename TClassifiedImage >
-class ImageClassifierBase:
+class ITKClassifiers_TEMPLATE_EXPORT ImageClassifierBase:
   public ClassifierBase< TInputImage >
 {
 public:

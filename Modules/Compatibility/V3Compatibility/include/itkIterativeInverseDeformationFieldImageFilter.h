@@ -53,7 +53,7 @@ namespace itk
  */
 
 template< typename TInputImage, typename TOutputImage >
-class IterativeInverseDeformationFieldImageFilter:
+class ITKV3Compatibility_TEMPLATE_EXPORT IterativeInverseDeformationFieldImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

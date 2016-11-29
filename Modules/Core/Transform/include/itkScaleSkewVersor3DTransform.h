@@ -51,7 +51,7 @@ namespace itk
  * \ingroup ITKTransform
  */
 template<typename TParametersValueType=double>
-class ScaleSkewVersor3DTransform :
+class ITKTransform_TEMPLATE_EXPORT ScaleSkewVersor3DTransform :
   public VersorRigid3DTransform<TParametersValueType>
 {
 public:

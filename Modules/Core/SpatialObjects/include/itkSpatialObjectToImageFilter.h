@@ -37,7 +37,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputSpatialObject, typename TOutputImage >
-class SpatialObjectToImageFilter:public ImageSource< TOutputImage >
+class ITKSpatialObjects_TEMPLATE_EXPORT SpatialObjectToImageFilter:public ImageSource< TOutputImage >
 {
 public:
   /** Standard class typedefs. */

@@ -33,7 +33,7 @@ namespace Statistics
  */
 
 template<typename TMeasurementVector, typename TTargetVector >
-class NeuralNetworkObject : public DataObject
+class ITKNeuralNetworks_TEMPLATE_EXPORT NeuralNetworkObject : public DataObject
 {
 public:
 

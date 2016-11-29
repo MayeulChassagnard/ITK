@@ -31,7 +31,7 @@ namespace itk
  * \ingroup ITKLevelSetsv4
  */
 template< typename TImage >
-class LevelSetDomainPartitionImageWithKdTree:
+class ITKLevelSetsv4_TEMPLATE_EXPORT LevelSetDomainPartitionImageWithKdTree:
   public LevelSetDomainPartitionImage< TImage >
 {
 public:

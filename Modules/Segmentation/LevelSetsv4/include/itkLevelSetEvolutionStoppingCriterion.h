@@ -29,7 +29,7 @@ namespace itk
   \ingroup ITKLevelSetsv4
   */
  template< typename TLevelSetContainer >
- class LevelSetEvolutionStoppingCriterion : public StoppingCriterionBase
+ class ITKLevelSetsv4_TEMPLATE_EXPORT LevelSetEvolutionStoppingCriterion : public StoppingCriterionBase
  {
  public:
    typedef LevelSetEvolutionStoppingCriterion  Self;

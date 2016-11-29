@@ -62,7 +62,7 @@ namespace itk
 template< typename TInputImage, typename TFeatureImage, typename TOutputImage,
           typename TFunction = ScalarChanAndVeseLevelSetFunction< TInputImage, TFeatureImage >,
           class TSharedData = typename TFunction::SharedDataType >
-class ScalarChanAndVeseDenseLevelSetImageFilter:
+class ITKReview_TEMPLATE_EXPORT ScalarChanAndVeseDenseLevelSetImageFilter:
   public MultiphaseDenseFiniteDifferenceImageFilter< TInputImage, TFeatureImage, TOutputImage,
                                                      TFunction >
 {

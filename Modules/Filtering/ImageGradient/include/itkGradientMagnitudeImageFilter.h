@@ -38,7 +38,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage, typename TOutputImage >
-class GradientMagnitudeImageFilter:
+class ITKImageGradient_TEMPLATE_EXPORT GradientMagnitudeImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

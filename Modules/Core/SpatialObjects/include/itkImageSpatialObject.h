@@ -37,7 +37,7 @@ namespace itk
 template< unsigned int TDimension = 3,
           typename TPixelType = unsigned char
           >
-class ImageSpatialObject:
+class ITKSpatialObjects_TEMPLATE_EXPORT ImageSpatialObject:
   public SpatialObject< TDimension >
 {
 public:

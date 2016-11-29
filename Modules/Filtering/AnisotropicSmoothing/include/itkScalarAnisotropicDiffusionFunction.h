@@ -38,7 +38,7 @@ namespace itk
  * \ingroup ITKAnisotropicSmoothing
  */
 template< typename TImage >
-class ScalarAnisotropicDiffusionFunction:
+class ITKAnisotropicSmoothing_TEMPLATE_EXPORT ScalarAnisotropicDiffusionFunction:
   public AnisotropicDiffusionFunction< TImage >
 {
 public:

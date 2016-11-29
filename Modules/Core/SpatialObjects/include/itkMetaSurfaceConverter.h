@@ -31,7 +31,7 @@ namespace itk
  *  \ingroup ITKSpatialObjects
  */
 template< unsigned int NDimensions = 3 >
-class MetaSurfaceConverter :
+class ITKSpatialObjects_TEMPLATE_EXPORT MetaSurfaceConverter :
     public MetaConverterBase< NDimensions >
 {
 public:

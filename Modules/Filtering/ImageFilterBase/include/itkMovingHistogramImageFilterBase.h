@@ -87,7 +87,7 @@ namespace itk
  */
 
 template< typename TInputImage, typename TOutputImage, typename TKernel >
-class MovingHistogramImageFilterBase:
+class ITKImageFilterBase_TEMPLATE_EXPORT MovingHistogramImageFilterBase:
   public KernelImageFilter< TInputImage, TOutputImage, TKernel >
 {
 public:

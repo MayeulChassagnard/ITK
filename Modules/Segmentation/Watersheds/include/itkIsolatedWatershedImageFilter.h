@@ -38,7 +38,7 @@ namespace itk
  */
 
 template< typename TInputImage, typename TOutputImage >
-class IsolatedWatershedImageFilter:
+class ITKWatersheds_TEMPLATE_EXPORT IsolatedWatershedImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

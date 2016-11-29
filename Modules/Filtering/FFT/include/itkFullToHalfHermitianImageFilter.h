@@ -42,7 +42,7 @@ namespace itk
  * \ingroup ITKFFT
  */
 template< typename TInputImage >
-class FullToHalfHermitianImageFilter :
+class ITKFFT_TEMPLATE_EXPORT FullToHalfHermitianImageFilter :
   public ImageToImageFilter< TInputImage, TInputImage >
 {
 public:

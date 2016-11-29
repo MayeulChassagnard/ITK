@@ -38,7 +38,7 @@ namespace itk
  */
 
 template< typename TInputImage, typename TOutputImage = TInputImage >
-class BoxSigmaImageFilter:
+class ITKSmoothing_TEMPLATE_EXPORT BoxSigmaImageFilter:
   public BoxImageFilter< TInputImage, TOutputImage >
 {
 public:

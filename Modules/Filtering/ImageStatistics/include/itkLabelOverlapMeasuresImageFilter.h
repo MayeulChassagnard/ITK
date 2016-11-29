@@ -42,7 +42,7 @@ namespace itk {
  * \ingroup MultiThreaded
  */
 template<typename TLabelImage>
-class LabelOverlapMeasuresImageFilter :
+class ITKImageStatistics_TEMPLATE_EXPORT LabelOverlapMeasuresImageFilter :
     public ImageToImageFilter<TLabelImage, TLabelImage>
 {
 public:

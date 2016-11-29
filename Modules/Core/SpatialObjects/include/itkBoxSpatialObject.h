@@ -33,7 +33,7 @@ namespace itk
  * \ingroup ITKSpatialObjects
  */
 template< unsigned int TDimension = 3 >
-class BoxSpatialObject:
+class ITKSpatialObjects_TEMPLATE_EXPORT BoxSpatialObject:
   public SpatialObject< TDimension >
 {
 public:

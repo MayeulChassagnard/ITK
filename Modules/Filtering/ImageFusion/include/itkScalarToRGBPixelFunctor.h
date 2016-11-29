@@ -41,7 +41,7 @@ namespace Functor
  * \ingroup ITKImageFusion
  */
 template< typename TScalar >
-class ScalarToRGBPixelFunctor
+class ITKImageFusion_TEMPLATE_EXPORT ScalarToRGBPixelFunctor
 {
 public:
   ScalarToRGBPixelFunctor();

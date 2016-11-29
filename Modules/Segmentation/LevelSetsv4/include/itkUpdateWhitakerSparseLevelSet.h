@@ -42,7 +42,7 @@ namespace itk
 template< unsigned int VDimension,
           typename TLevelSetValueType,
           typename TEquationContainer >
-class UpdateWhitakerSparseLevelSet : public Object
+class ITKLevelSetsv4_TEMPLATE_EXPORT UpdateWhitakerSparseLevelSet : public Object
 {
 public:
   typedef UpdateWhitakerSparseLevelSet  Self;

@@ -81,7 +81,7 @@ public:
  * \endwiki
  */
 template< typename TInputImage >
-class ITKIOImageBase_HIDDEN ImageFileWriter:public ProcessObject
+class ITKIOImageBase_TEMPLATE_EXPORT ITKIOImageBase_HIDDEN ImageFileWriter:public ProcessObject
 {
 public:
   /** Standard class typedefs. */

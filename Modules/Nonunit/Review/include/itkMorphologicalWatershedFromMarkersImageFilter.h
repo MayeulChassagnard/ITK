@@ -77,7 +77,7 @@ namespace itk
  * \ingroup ITKReview
  */
 template< typename TInputImage, typename TLabelImage >
-class MorphologicalWatershedFromMarkersImageFilter:
+class ITKReview_TEMPLATE_EXPORT MorphologicalWatershedFromMarkersImageFilter:
   public ImageToImageFilter< TInputImage, TLabelImage >
 {
 public:

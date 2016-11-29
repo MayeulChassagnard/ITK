@@ -55,7 +55,7 @@ template<
   typename TAuxValue,
   unsigned int VAuxDimension = 1
   >
-class LevelSetVelocityNeighborhoodExtractor:
+class ITKLevelSets_TEMPLATE_EXPORT LevelSetVelocityNeighborhoodExtractor:
   public LevelSetNeighborhoodExtractor< TLevelSet >
 {
 public:

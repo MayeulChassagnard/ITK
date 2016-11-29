@@ -109,7 +109,7 @@ namespace itk
  * \ingroup ITKRegistrationCommon
  */
 template <typename TFixedImage, typename TMovingImage>
-class MattesMutualInformationImageToImageMetric:
+class ITKRegistrationCommon_TEMPLATE_EXPORT MattesMutualInformationImageToImageMetric:
   public ImageToImageMetric<TFixedImage, TMovingImage>
 {
 public:

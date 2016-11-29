@@ -46,7 +46,7 @@ namespace itk
  * \endwiki
  */
 template< typename TImage >
-class ShapeOpeningLabelMapFilter:
+class ITKLabelMap_TEMPLATE_EXPORT ShapeOpeningLabelMapFilter:
   public InPlaceLabelMapFilter< TImage >
 {
 public:

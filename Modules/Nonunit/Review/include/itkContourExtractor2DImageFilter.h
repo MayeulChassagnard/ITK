@@ -99,7 +99,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage >
-class ContourExtractor2DImageFilter:
+class ITKReview_TEMPLATE_EXPORT ContourExtractor2DImageFilter:
   public ImageToPathFilter< TInputImage, PolyLineParametricPath< 2 > >
 {
 public:

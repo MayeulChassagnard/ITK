@@ -104,7 +104,7 @@ namespace Statistics
 
 template<typename TImageType, typename THistogramFrequencyContainer =
   DenseFrequencyContainer2>
-class ScalarImageToRunLengthMatrixFilter : public ProcessObject
+class ITKStatistics_TEMPLATE_EXPORT ScalarImageToRunLengthMatrixFilter : public ProcessObject
 {
 public:
   /** Standard typedefs */

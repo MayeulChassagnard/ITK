@@ -45,7 +45,7 @@ namespace Statistics
  */
 
 template< typename TSample >
-class MeanSampleFilter : public ProcessObject
+class ITKStatistics_TEMPLATE_EXPORT MeanSampleFilter : public ProcessObject
 {
 public:
   /**Standard class typedefs. */

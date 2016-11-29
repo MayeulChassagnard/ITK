@@ -31,7 +31,7 @@ namespace Statistics
  * \ingroup ITKNeuralNetworks
  */
 template<typename TScalar>
-class SigmoidTransferFunction : public TransferFunctionBase<TScalar>
+class ITKNeuralNetworks_TEMPLATE_EXPORT SigmoidTransferFunction : public TransferFunctionBase<TScalar>
 {
 public:
 

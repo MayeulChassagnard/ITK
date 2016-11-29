@@ -60,7 +60,7 @@ namespace itk
  */
 
 template< typename TInputImageType, typename TSparseOutputImageType >
-class FiniteDifferenceSparseImageFilter:
+class ITKFiniteDifference_TEMPLATE_EXPORT FiniteDifferenceSparseImageFilter:
   public FiniteDifferenceImageFilter< TInputImageType,
                                       TSparseOutputImageType >
 {

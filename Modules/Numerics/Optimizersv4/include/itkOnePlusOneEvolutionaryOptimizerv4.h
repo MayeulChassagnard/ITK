@@ -66,7 +66,7 @@ namespace itk
  */
 
 template<typename TInternalComputationValueType>
-class OnePlusOneEvolutionaryOptimizerv4:
+class ITKOptimizersv4_TEMPLATE_EXPORT OnePlusOneEvolutionaryOptimizerv4:
   public ObjectToObjectOptimizerBaseTemplate<TInternalComputationValueType>
 {
 public:

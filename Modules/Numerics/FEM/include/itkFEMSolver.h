@@ -69,7 +69,7 @@ namespace fem
  */
 
 template <unsigned int VDimension = 3>
-class Solver : public ProcessObject
+class ITKFEM_TEMPLATE_EXPORT Solver : public ProcessObject
 {
 public:
   /** Standard class typedefs. */

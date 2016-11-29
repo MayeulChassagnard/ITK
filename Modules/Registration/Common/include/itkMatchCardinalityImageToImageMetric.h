@@ -64,7 +64,7 @@ namespace itk
  * \ingroup ITKRegistrationCommon
  */
 template< typename TFixedImage, typename TMovingImage >
-class MatchCardinalityImageToImageMetric:
+class ITKRegistrationCommon_TEMPLATE_EXPORT MatchCardinalityImageToImageMetric:
   public ImageToImageMetric< TFixedImage, TMovingImage >
 {
 public:

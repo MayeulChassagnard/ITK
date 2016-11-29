@@ -47,7 +47,7 @@ namespace itk
  * \ingroup ITKMathematicalMorphology
  */
 template< typename TInputImage, typename TOutputImage, typename TKernel >
-class GrayscaleFunctionDilateImageFilter:
+class ITKMathematicalMorphology_TEMPLATE_EXPORT GrayscaleFunctionDilateImageFilter:
   public MorphologyImageFilter< TInputImage, TOutputImage, TKernel >
 {
 public:

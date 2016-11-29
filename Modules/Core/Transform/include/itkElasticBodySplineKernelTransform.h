@@ -38,7 +38,7 @@ namespace itk
  */
 template<typename TParametersValueType=double,
           unsigned int NDimensions=3>
-class ElasticBodySplineKernelTransform:
+class ITKTransform_TEMPLATE_EXPORT ElasticBodySplineKernelTransform:
   public KernelTransform<TParametersValueType, NDimensions>
 {
 public:

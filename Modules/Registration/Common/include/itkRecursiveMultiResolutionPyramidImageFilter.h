@@ -64,7 +64,7 @@ template<
   typename TInputImage,
   typename TOutputImage
   >
-class RecursiveMultiResolutionPyramidImageFilter:
+class ITKRegistrationCommon_TEMPLATE_EXPORT RecursiveMultiResolutionPyramidImageFilter:
   public MultiResolutionPyramidImageFilter< TInputImage, TOutputImage >
 {
 public:

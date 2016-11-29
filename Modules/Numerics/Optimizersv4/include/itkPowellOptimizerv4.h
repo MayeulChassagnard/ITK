@@ -56,7 +56,7 @@ namespace itk
  * \ingroup ITKOptimizersv4
  */
 template<typename TInternalComputationValueType>
-class PowellOptimizerv4:
+class ITKOptimizersv4_TEMPLATE_EXPORT PowellOptimizerv4:
   public ObjectToObjectOptimizerBaseTemplate<TInternalComputationValueType>
 {
 public:

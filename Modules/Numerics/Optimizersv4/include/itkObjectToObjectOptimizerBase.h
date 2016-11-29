@@ -77,7 +77,7 @@ namespace itk
  * \ingroup ITKOptimizersv4
  */
 template< typename TInternalComputationValueType = double>
-class ObjectToObjectOptimizerBaseTemplate : public Object
+class ITKOptimizersv4_TEMPLATE_EXPORT ObjectToObjectOptimizerBaseTemplate : public Object
 {
 public:
   /** Standard class typedefs. */

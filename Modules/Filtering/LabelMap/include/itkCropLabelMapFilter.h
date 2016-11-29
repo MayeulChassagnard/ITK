@@ -52,7 +52,7 @@ namespace itk
  * \ingroup ITKLabelMap
  */
 template< typename TInputImage >
-class CropLabelMapFilter:public ChangeRegionLabelMapFilter< TInputImage >
+class ITKLabelMap_TEMPLATE_EXPORT CropLabelMapFilter:public ChangeRegionLabelMapFilter< TInputImage >
 {
 public:
   /** Standard class typedefs. */

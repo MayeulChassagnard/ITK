@@ -78,7 +78,7 @@ template< typename TInputImage,
           class TOutputFilter = typename TInputFilter::Superclass,
           class TInternalInputImage = typename TInputFilter::InputImageType,
           class TInternalOutputImage = typename TOutputFilter::OutputImageType >
-class SliceBySliceImageFilter:
+class ITKImageGrid_TEMPLATE_EXPORT SliceBySliceImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

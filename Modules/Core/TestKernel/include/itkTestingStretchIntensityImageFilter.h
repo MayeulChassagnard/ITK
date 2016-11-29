@@ -38,7 +38,7 @@
  * \ingroup ITKTestKernel
  */
 template< typename  TInputImage, typename  TOutputImage = TInputImage >
-class StretchIntensityImageFilter: public ImageSource< TOutputImage >
+class ITKTestKernel_TEMPLATE_EXPORT StretchIntensityImageFilter: public ImageSource< TOutputImage >
 {
 public:
   /** Standard class typedefs. */

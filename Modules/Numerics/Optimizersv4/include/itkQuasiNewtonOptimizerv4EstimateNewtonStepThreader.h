@@ -32,7 +32,7 @@ class QuasiNewtonOptimizerv4Template;
  * \ingroup ITKOptimizersv4
  * */
 template<typename TInternalComputationValueType>
-class QuasiNewtonOptimizerv4EstimateNewtonStepThreaderTemplate
+class ITKOptimizersv4_TEMPLATE_EXPORT QuasiNewtonOptimizerv4EstimateNewtonStepThreaderTemplate
   : public DomainThreader< ThreadedIndexedContainerPartitioner, QuasiNewtonOptimizerv4Template<TInternalComputationValueType> >
 {
 public:

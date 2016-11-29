@@ -52,7 +52,7 @@ namespace itk
  * \ingroup ITKLevelSets
  */
 template< typename TImageType, typename TFeatureImageType = TImageType >
-class ShapePriorSegmentationLevelSetFunction:
+class ITKLevelSets_TEMPLATE_EXPORT ShapePriorSegmentationLevelSetFunction:
   public SegmentationLevelSetFunction< TImageType, TFeatureImageType >
 {
 public:

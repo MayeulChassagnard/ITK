@@ -60,7 +60,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage, typename TOutputImage >
-class ConfidenceConnectedImageFilter:
+class ITKRegionGrowing_TEMPLATE_EXPORT ConfidenceConnectedImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

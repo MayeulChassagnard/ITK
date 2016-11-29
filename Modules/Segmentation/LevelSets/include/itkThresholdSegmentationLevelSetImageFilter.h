@@ -83,7 +83,7 @@ namespace itk
 template< typename TInputImage,
           typename TFeatureImage,
           typename TOutputPixelType = float >
-class ThresholdSegmentationLevelSetImageFilter:
+class ITKLevelSets_TEMPLATE_EXPORT ThresholdSegmentationLevelSetImageFilter:
   public SegmentationLevelSetImageFilter< TInputImage, TFeatureImage, TOutputPixelType >
 {
 public:

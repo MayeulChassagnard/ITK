@@ -46,7 +46,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage, typename TOutputImage >
-class ConstantPadImageFilter:
+class ITKImageGrid_TEMPLATE_EXPORT ConstantPadImageFilter:
   public PadImageFilter< TInputImage, TOutputImage >
 {
 public:

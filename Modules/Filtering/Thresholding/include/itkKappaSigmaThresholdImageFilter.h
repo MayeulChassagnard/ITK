@@ -45,7 +45,7 @@ namespace itk
 template< typename TInputImage,
           typename TMaskImage = Image< unsigned char, TInputImage::ImageDimension >,
           class TOutputImage = TInputImage >
-class KappaSigmaThresholdImageFilter:
+class ITKThresholding_TEMPLATE_EXPORT KappaSigmaThresholdImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

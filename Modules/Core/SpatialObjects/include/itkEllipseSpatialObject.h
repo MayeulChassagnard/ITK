@@ -35,7 +35,7 @@ namespace itk
  */
 
 template< unsigned int TDimension = 3 >
-class EllipseSpatialObject:
+class ITKSpatialObjects_TEMPLATE_EXPORT EllipseSpatialObject:
   public SpatialObject< TDimension >
 {
 public:

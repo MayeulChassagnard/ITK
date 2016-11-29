@@ -71,7 +71,7 @@ namespace itk
  * \ingroup ITKLevelSets
  */
 template< typename TInputImage, typename TOutputImage >
-class IsotropicFourthOrderLevelSetImageFilter:
+class ITKLevelSets_TEMPLATE_EXPORT IsotropicFourthOrderLevelSetImageFilter:
   public SparseFieldFourthOrderLevelSetImageFilter< TInputImage, TOutputImage >
 {
 public:

@@ -31,7 +31,7 @@ namespace Statistics
  */
 
 template<typename TScalar>
-class LogSigmoidTransferFunction : public TransferFunctionBase<TScalar>
+class ITKNeuralNetworks_TEMPLATE_EXPORT LogSigmoidTransferFunction : public TransferFunctionBase<TScalar>
 {
 public:
 

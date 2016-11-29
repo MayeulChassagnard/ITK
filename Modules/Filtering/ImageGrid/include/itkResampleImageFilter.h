@@ -86,7 +86,7 @@ template< typename TInputImage,
           typename TOutputImage,
           typename TInterpolatorPrecisionType = double,
           typename TTransformPrecisionType = TInterpolatorPrecisionType>
-class ResampleImageFilter :
+class ITKImageGrid_TEMPLATE_EXPORT ResampleImageFilter :
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

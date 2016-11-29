@@ -51,7 +51,7 @@ namespace itk
  * \ingroup ITKDisplacementField
  */
 template<typename TParametersValueType, unsigned int NDimensions>
-class TimeVaryingVelocityFieldTransform :
+class ITKDisplacementField_TEMPLATE_EXPORT TimeVaryingVelocityFieldTransform :
   public VelocityFieldTransform<TParametersValueType, NDimensions>
 {
 public:

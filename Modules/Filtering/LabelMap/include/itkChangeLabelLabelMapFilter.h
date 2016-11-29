@@ -41,7 +41,7 @@ namespace itk
  * \ingroup ITKLabelMap
  */
 template< typename TImage >
-class ChangeLabelLabelMapFilter:
+class ITKLabelMap_TEMPLATE_EXPORT ChangeLabelLabelMapFilter:
   public InPlaceLabelMapFilter< TImage >
 {
 public:

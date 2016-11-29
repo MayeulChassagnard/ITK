@@ -42,7 +42,7 @@ namespace Testing
  * \ingroup ITKTestKernel
  */
 template < typename TImageType >
-class HashImageFilter:
+class ITKTestKernel_TEMPLATE_EXPORT HashImageFilter:
     public InPlaceImageFilter< TImageType, TImageType >
 {
 public:

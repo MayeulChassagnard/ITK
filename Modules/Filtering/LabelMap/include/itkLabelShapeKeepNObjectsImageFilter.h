@@ -48,7 +48,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage >
-class LabelShapeKeepNObjectsImageFilter:
+class ITKLabelMap_TEMPLATE_EXPORT LabelShapeKeepNObjectsImageFilter:
   public ImageToImageFilter< TInputImage, TInputImage >
 {
 public:

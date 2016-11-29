@@ -39,7 +39,7 @@ namespace itk
  * \ingroup ITKMesh
  */
 template< typename TInputMesh, typename TOutputMesh, typename TTransform >
-class TransformMeshFilter:
+class ITKMesh_TEMPLATE_EXPORT TransformMeshFilter:
   public MeshToMeshFilter< TInputMesh, TOutputMesh >
 {
 public:

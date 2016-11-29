@@ -53,7 +53,7 @@ namespace itk
 template< typename TInput, typename TOutput,
          typename TAuxValue,
          unsigned int VAuxDimension >
-class FastMarchingExtensionImageFilterBase:
+class ITKFastMarching_TEMPLATE_EXPORT FastMarchingExtensionImageFilterBase:
   public FastMarchingImageFilterBase< TInput, TOutput >
 {
 public:

@@ -52,7 +52,7 @@ namespace itk
  * \ingroup ITKLabelMap
  */
 template< typename TInputImage >
-class PadLabelMapFilter:public ChangeRegionLabelMapFilter< TInputImage >
+class ITKLabelMap_TEMPLATE_EXPORT PadLabelMapFilter:public ChangeRegionLabelMapFilter< TInputImage >
 {
 public:
   /** Standard class typedefs. */

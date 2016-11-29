@@ -52,7 +52,7 @@ namespace Statistics
  * \ingroup ITKStatistics
  */
 template< typename TImage, typename TMaskImage = TImage >
-class ImageToListSampleFilter:
+class ITKStatistics_TEMPLATE_EXPORT ImageToListSampleFilter:
   public ProcessObject
 {
 public:

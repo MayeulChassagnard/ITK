@@ -41,7 +41,7 @@ namespace itk
   \ingroup ITKFastMarching
 */
 template< typename TInput, typename TOutput >
-class FastMarchingQuadEdgeMeshFilterBase :
+class ITKFastMarching_TEMPLATE_EXPORT FastMarchingQuadEdgeMeshFilterBase :
     public FastMarchingBase< TInput, TOutput >
 {
 public:

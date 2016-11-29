@@ -85,7 +85,7 @@ namespace itk
 template< typename TTransform,
           typename TFixedImage = itk::ImageBase<TTransform::InputSpaceDimension > ,
           typename TMovingImage = itk::ImageBase<TTransform::OutputSpaceDimension> >
-class LandmarkBasedTransformInitializer:
+class ITKRegistrationCommon_TEMPLATE_EXPORT LandmarkBasedTransformInitializer:
   public Object
 {
 public:

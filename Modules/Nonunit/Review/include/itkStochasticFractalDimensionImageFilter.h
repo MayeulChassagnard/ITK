@@ -52,7 +52,7 @@ namespace itk
 template< typename TInputImage, typename TMaskImage = Image< unsigned char,
                                                        TInputImage::ImageDimension >,
           class TOutputImage = TInputImage >
-class StochasticFractalDimensionImageFilter:
+class ITKReview_TEMPLATE_EXPORT StochasticFractalDimensionImageFilter:
   public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:

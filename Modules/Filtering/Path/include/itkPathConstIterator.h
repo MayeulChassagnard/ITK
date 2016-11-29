@@ -72,7 +72,7 @@ namespace itk
  * \sa SliceIterator \sa ImageConstIteratorWithIndex
  */
 template< typename TImage, typename TPath >
-class PathConstIterator
+class ITKPath_TEMPLATE_EXPORT PathConstIterator
 {
 public:
   /** Standard class typedefs. */

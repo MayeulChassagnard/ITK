@@ -34,7 +34,7 @@ namespace itk
  *  \ingroup ITKLevelSetsv4
  */
 template< unsigned int VDimension >
-class ShiSparseLevelSetImage :
+class ITKLevelSetsv4_TEMPLATE_EXPORT ShiSparseLevelSetImage :
     public LevelSetSparseImage< int8_t, VDimension >
 {
 public:

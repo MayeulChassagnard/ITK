@@ -45,7 +45,7 @@ namespace itk
  * \ingroup IntensityImageFilters
  */
 template< typename TInputImage >
-class ShiftScaleInPlaceImageFilter:
+class ITKDeprecated_TEMPLATE_EXPORT ShiftScaleInPlaceImageFilter:
   public InPlaceImageFilter< TInputImage >
 {
 public:

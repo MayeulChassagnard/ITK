@@ -34,7 +34,7 @@ namespace itk
  */
 template< typename TInputImage, typename TOutputImage, typename TFunction, typename TParentImageFilter =
             InPlaceImageFilter< TInputImage, TOutputImage > >
-class GPUUnaryFunctorImageFilter : public GPUInPlaceImageFilter< TInputImage, TOutputImage,
+class ITKGPUCommon_TEMPLATE_EXPORT GPUUnaryFunctorImageFilter : public GPUInPlaceImageFilter< TInputImage, TOutputImage,
                                                                             TParentImageFilter >
 {
 public:

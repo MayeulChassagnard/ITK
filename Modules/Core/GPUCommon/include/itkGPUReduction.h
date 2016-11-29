@@ -37,7 +37,7 @@ namespace itk
  * \ingroup ITKGPUCommon
  */
 template< typename TElement >
-class GPUReduction :
+class ITKGPUCommon_TEMPLATE_EXPORT GPUReduction :
   public Object
 {
 public:

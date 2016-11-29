@@ -32,7 +32,7 @@ namespace itk
  * \ingroup ITKVideoFiltering
  */
 template<typename TVideoStream>
-class DecimateFramesVideoFilter :
+class ITKVideoFiltering_TEMPLATE_EXPORT DecimateFramesVideoFilter :
   public VideoToVideoFilter<TVideoStream, TVideoStream>
 {
 public:

@@ -129,7 +129,7 @@ namespace itk
  * \ingroup ITKFiniteDifference
  */
 template< typename TInputImage, typename TOutputImage >
-class FiniteDifferenceImageFilter:
+class ITKFiniteDifference_TEMPLATE_EXPORT FiniteDifferenceImageFilter:
   public InPlaceImageFilter< TInputImage, TOutputImage >
 {
 public:

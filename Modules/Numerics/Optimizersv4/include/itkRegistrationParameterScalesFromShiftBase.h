@@ -40,7 +40,7 @@ namespace itk
  * \ingroup ITKOptimizersv4
  */
 template < typename TMetric >
-class RegistrationParameterScalesFromShiftBase :
+class ITKOptimizersv4_TEMPLATE_EXPORT RegistrationParameterScalesFromShiftBase :
   public RegistrationParameterScalesEstimator< TMetric >
 {
 public:
