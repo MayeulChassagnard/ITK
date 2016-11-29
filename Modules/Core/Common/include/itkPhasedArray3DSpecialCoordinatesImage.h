@@ -18,6 +18,7 @@
 #ifndef itkPhasedArray3DSpecialCoordinatesImage_h
 #define itkPhasedArray3DSpecialCoordinatesImage_h
 
+#include "ITKCommonExport.h"
 #include "itkSpecialCoordinatesImage.h"
 #include "itkPoint.h"
 #include "itkMath.h"
@@ -92,7 +93,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TPixel >
-class PhasedArray3DSpecialCoordinatesImage:
+class ITKCommon_TEMPLATE_EXPORT PhasedArray3DSpecialCoordinatesImage:
   public SpecialCoordinatesImage< TPixel, 3 >
 {
 public:

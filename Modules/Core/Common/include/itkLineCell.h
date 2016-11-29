@@ -18,6 +18,7 @@
 #ifndef itkLineCell_h
 #define itkLineCell_h
 
+#include "ITKCommonExport.h"
 #include "itkVertexCell.h"
 
 namespace itk
@@ -39,7 +40,7 @@ namespace itk
  */
 
 template< typename TCellInterface >
-class LineCell:public TCellInterface
+class ITKCommon_TEMPLATE_EXPORT LineCell:public TCellInterface
 {
 public:
   /** Standard class typedefs. */

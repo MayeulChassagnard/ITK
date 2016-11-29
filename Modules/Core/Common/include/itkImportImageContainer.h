@@ -18,6 +18,7 @@
 #ifndef itkImportImageContainer_h
 #define itkImportImageContainer_h
 
+#include "ITKCommonExport.h"
 #include "itkObject.h"
 #include "itkObjectFactory.h"
 #include <utility>
@@ -42,7 +43,7 @@ namespace itk
  */
 
 template< typename TElementIdentifier, typename TElement >
-class ImportImageContainer:public Object
+class ITKCommon_TEMPLATE_EXPORT ImportImageContainer:public Object
 {
 public:
   /** Standard class typedefs. */

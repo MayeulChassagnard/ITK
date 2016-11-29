@@ -28,6 +28,7 @@
 #ifndef itkBoundingBox_h
 #define itkBoundingBox_h
 
+#include "ITKCommonExport.h"
 #include "itkPoint.h"
 #include "itkVectorContainer.h"
 #include "itkIntTypes.h"
@@ -74,7 +75,7 @@ template<
   typename TPointsContainer =
     VectorContainer< TPointIdentifier, Point< TCoordRep, VPointDimension > >
   >
-class BoundingBox:public Object
+class ITKCommon_TEMPLATE_EXPORT BoundingBox:public Object
 {
 public:
   /** Standard class typedefs. */

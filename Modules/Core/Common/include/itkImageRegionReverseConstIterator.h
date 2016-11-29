@@ -18,6 +18,7 @@
 #ifndef itkImageRegionReverseConstIterator_h
 #define itkImageRegionReverseConstIterator_h
 
+#include "ITKCommonExport.h"
 #include "itkImageReverseConstIterator.h"
 #include "itkImageRegionIterator.h"
 
@@ -100,7 +101,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TImage >
-class ImageRegionReverseConstIterator:public ImageReverseConstIterator< TImage >
+class ITKCommon_TEMPLATE_EXPORT ImageRegionReverseConstIterator:public ImageReverseConstIterator< TImage >
 {
 public:
   /** Standard class typedefs. */

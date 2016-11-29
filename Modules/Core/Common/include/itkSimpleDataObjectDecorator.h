@@ -28,6 +28,7 @@
 #ifndef itkSimpleDataObjectDecorator_h
 #define itkSimpleDataObjectDecorator_h
 
+#include "ITKCommonExport.h"
 #include "itkDataObject.h"
 #include "itkObjectFactory.h"
 
@@ -63,7 +64,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename T >
-class SimpleDataObjectDecorator:public DataObject
+class ITKCommon_TEMPLATE_EXPORT SimpleDataObjectDecorator:public DataObject
 {
 public:
   /** Standard typedefs. */

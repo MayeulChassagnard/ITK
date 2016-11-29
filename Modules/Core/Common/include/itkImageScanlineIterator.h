@@ -18,6 +18,7 @@
 #ifndef itkImageScanlineIterator_h
 #define itkImageScanlineIterator_h
 
+#include "ITKCommonExport.h"
 #include "itkImageScanlineConstIterator.h"
 
 namespace itk
@@ -39,7 +40,7 @@ namespace itk
  *
  */
 template< typename TImage >
-class ImageScanlineIterator:public ImageScanlineConstIterator< TImage >
+class ITKCommon_TEMPLATE_EXPORT ImageScanlineIterator:public ImageScanlineConstIterator< TImage >
 {
 public:
   /** Standard class typedefs. */

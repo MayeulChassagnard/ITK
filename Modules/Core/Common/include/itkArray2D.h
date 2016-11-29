@@ -20,6 +20,7 @@
 
 #include "itkMacro.h"
 #include "itkIntTypes.h"
+#include "ITKCommonExport.h"
 #include "vnl/vnl_matrix.h"
 
 namespace itk
@@ -42,7 +43,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TValue >
-class Array2D: public vnl_matrix< TValue >
+class ITKCommon_TEMPLATE_EXPORT Array2D: public vnl_matrix< TValue >
 {
 public:
 

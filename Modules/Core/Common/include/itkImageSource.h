@@ -28,6 +28,7 @@
 #ifndef itkImageSource_h
 #define itkImageSource_h
 
+#include "ITKCommonExport.h"
 #include "itkProcessObject.h"
 #include "itkImage.h"
 #include "itkImageRegionSplitterBase.h"
@@ -64,7 +65,7 @@ namespace itk
  * \endwiki
  */
 template< typename TOutputImage >
-class ImageSource
+class ITKCommon_TEMPLATE_EXPORT ImageSource
   : public ProcessObject, private ImageSourceCommon
 {
 public:

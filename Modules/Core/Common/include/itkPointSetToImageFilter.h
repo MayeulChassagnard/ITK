@@ -18,6 +18,7 @@
 #ifndef itkPointSetToImageFilter_h
 #define itkPointSetToImageFilter_h
 
+#include "ITKCommonExport.h"
 #include "itkImageSource.h"
 #include "itkConceptChecking.h"
 
@@ -31,7 +32,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TInputPointSet, typename TOutputImage >
-class PointSetToImageFilter:public ImageSource< TOutputImage >
+class ITKCommon_TEMPLATE_EXPORT PointSetToImageFilter:public ImageSource< TOutputImage >
 {
 public:
   /** Standard class typedefs. */

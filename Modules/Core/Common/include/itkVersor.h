@@ -18,6 +18,7 @@
 #ifndef itkVersor_h
 #define itkVersor_h
 
+#include "ITKCommonExport.h"
 #include "itkMatrix.h"
 #include "vnl/vnl_quaternion.h"
 #include "vnl/vnl_vector_fixed.h"
@@ -47,7 +48,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename T >
-class Versor
+class ITKCommon_TEMPLATE_EXPORT Versor
 {
 public:
   /** Standard class typedefs. */

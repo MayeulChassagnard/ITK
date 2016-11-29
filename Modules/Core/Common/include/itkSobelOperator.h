@@ -18,6 +18,7 @@
 #ifndef itkSobelOperator_h
 #define itkSobelOperator_h
 
+#include "ITKCommonExport.h"
 #include "itkNeighborhoodOperator.h"
 
 namespace itk
@@ -93,7 +94,7 @@ namespace itk
  */
 template< typename TPixel, unsigned int VDimension = 2,
           typename TAllocator = NeighborhoodAllocator< TPixel > >
-class SobelOperator:
+class ITKCommon_TEMPLATE_EXPORT SobelOperator:
   public NeighborhoodOperator< TPixel, VDimension, TAllocator >
 {
 public:

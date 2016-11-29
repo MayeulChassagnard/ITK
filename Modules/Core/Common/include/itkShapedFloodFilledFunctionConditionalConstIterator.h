@@ -18,6 +18,7 @@
 #ifndef itkShapedFloodFilledFunctionConditionalConstIterator_h
 #define itkShapedFloodFilledFunctionConditionalConstIterator_h
 
+#include "ITKCommonExport.h"
 #include <queue>
 #include <vector>
 
@@ -40,7 +41,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TImage, typename TFunction >
-class ShapedFloodFilledFunctionConditionalConstIterator:
+class ITKCommon_TEMPLATE_EXPORT ShapedFloodFilledFunctionConditionalConstIterator:
   public ConditionalConstIterator< TImage >
 {
 public:

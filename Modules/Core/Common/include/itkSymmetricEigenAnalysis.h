@@ -18,6 +18,7 @@
 #ifndef itkSymmetricEigenAnalysis_h
 #define itkSymmetricEigenAnalysis_h
 
+#include "ITKCommonExport.h"
 #include "itkMacro.h"
 
 namespace itk
@@ -58,7 +59,7 @@ namespace itk
  */
 
 template< typename TMatrix, typename TVector, typename TEigenMatrix = TMatrix >
-class SymmetricEigenAnalysis
+class ITKCommon_TEMPLATE_EXPORT SymmetricEigenAnalysis
 {
 public:
   typedef enum

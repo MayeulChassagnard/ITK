@@ -18,6 +18,7 @@
 #ifndef itkImageRandomNonRepeatingIteratorWithIndex_h
 #define itkImageRandomNonRepeatingIteratorWithIndex_h
 
+#include "ITKCommonExport.h"
 #include "itkImageRandomNonRepeatingConstIteratorWithIndex.h"
 #include "itkImageIteratorWithIndex.h"
 
@@ -71,7 +72,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TImage >
-class ImageRandomNonRepeatingIteratorWithIndex:public ImageRandomNonRepeatingConstIteratorWithIndex< TImage >
+class ITKCommon_TEMPLATE_EXPORT ImageRandomNonRepeatingIteratorWithIndex:public ImageRandomNonRepeatingConstIteratorWithIndex< TImage >
 {
 public:
   /** Standard class typedefs. */

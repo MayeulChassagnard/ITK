@@ -18,6 +18,7 @@
 #ifndef itkImageDuplicator_h
 #define itkImageDuplicator_h
 
+#include "ITKCommonExport.h"
 #include "itkObject.h"
 #include "itkImage.h"
 
@@ -51,7 +52,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage >
-class ImageDuplicator:public Object
+class ITKCommon_TEMPLATE_EXPORT ImageDuplicator:public Object
 {
 public:
   /** Standard class typedefs. */

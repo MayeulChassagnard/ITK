@@ -28,6 +28,7 @@
 #ifndef itkImageBase_h
 #define itkImageBase_h
 
+#include "ITKCommonExport.h"
 #include "itkDataObject.h"
 
 #include "itkImageRegion.h"
@@ -112,7 +113,7 @@ class ImageTransformHelper;
  * \ingroup ITKCommon
  */
 template< unsigned int VImageDimension = 2 >
-class ImageBase:public DataObject
+class ITKCommon_TEMPLATE_EXPORT ImageBase:public DataObject
 {
 public:
   /** Standard typedefs. */

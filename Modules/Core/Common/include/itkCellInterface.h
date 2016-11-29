@@ -18,6 +18,7 @@
 #ifndef itkCellInterface_h
 #define itkCellInterface_h
 
+#include "ITKCommonExport.h"
 #include "itkObject.h"
 #include <map>
 #include "itkCellInterfaceVisitor.h"
@@ -101,7 +102,7 @@ template<
   typename TPixelType,
   typename TCellTraits
   >
-class CellInterface
+class ITKCommon_TEMPLATE_EXPORT CellInterface
 {
 public:
 
@@ -470,7 +471,7 @@ template< int VPointDimension, typename TCoordRep,
           typename TCellIdentifier, typename TCellFeatureIdentifier,
           typename TPoint, typename TPointsContainer,
           typename TUsingCellsContainer >
-class CellTraitsInfo
+class ITKCommon_TEMPLATE_EXPORT CellTraitsInfo
 {
 public:
   itkStaticConstMacro(PointDimension, unsigned int, VPointDimension);

@@ -18,6 +18,7 @@
 #ifndef itkConditionalConstIterator_h
 #define itkConditionalConstIterator_h
 
+#include "ITKCommonExport.h"
 #include "itkIndex.h"
 
 namespace itk
@@ -35,7 +36,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TImage >
-class ConditionalConstIterator
+class ITKCommon_TEMPLATE_EXPORT ConditionalConstIterator
 {
 public:
   /** Standard class typedefs. */

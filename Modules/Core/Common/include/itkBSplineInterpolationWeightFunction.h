@@ -18,6 +18,7 @@
 #ifndef itkBSplineInterpolationWeightFunction_h
 #define itkBSplineInterpolationWeightFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkFunctionBase.h"
 #include "itkContinuousIndex.h"
 #include "itkBSplineKernelFunction.h"
@@ -48,7 +49,7 @@ template<
   unsigned int VSpaceDimension = 2,
   unsigned int VSplineOrder = 3
   >
-class BSplineInterpolationWeightFunction:
+class ITKCommon_TEMPLATE_EXPORT BSplineInterpolationWeightFunction:
   public FunctionBase< ContinuousIndex< TCoordRep, VSpaceDimension >,
                        Array< double > >
 {

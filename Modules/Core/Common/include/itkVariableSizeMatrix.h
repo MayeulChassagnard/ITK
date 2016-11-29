@@ -18,6 +18,7 @@
 #ifndef itkVariableSizeMatrix_h
 #define itkVariableSizeMatrix_h
 
+#include "ITKCommonExport.h"
 #include "itkPoint.h"
 #include "itkCovariantVector.h"
 #include "vnl/vnl_matrix_fixed.h"
@@ -41,7 +42,7 @@ namespace itk
  */
 
 template< typename T >
-class VariableSizeMatrix
+class ITKCommon_TEMPLATE_EXPORT VariableSizeMatrix
 {
 public:
   /** Standard class typedefs. */

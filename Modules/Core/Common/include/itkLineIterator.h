@@ -18,6 +18,7 @@
 #ifndef itkLineIterator_h
 #define itkLineIterator_h
 
+#include "ITKCommonExport.h"
 #include "itkLineConstIterator.h"
 
 namespace itk
@@ -53,7 +54,7 @@ namespace itk
  * \endwiki
  */
 template< typename TImage >
-class LineIterator:public LineConstIterator< TImage >
+class ITKCommon_TEMPLATE_EXPORT LineIterator:public LineConstIterator< TImage >
 {
 public:
   /** Standard class typedefs. */

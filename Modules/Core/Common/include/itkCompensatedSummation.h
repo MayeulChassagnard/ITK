@@ -18,6 +18,7 @@
 #ifndef itkCompensatedSummation_h
 #define itkCompensatedSummation_h
 
+#include "ITKCommonExport.h"
 #include "itkNumericTraits.h"
 #include "itkConceptChecking.h"
 
@@ -63,7 +64,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template < typename TFloat >
-class CompensatedSummation
+class ITKCommon_TEMPLATE_EXPORT CompensatedSummation
 {
 public:
   /** Type of the input elements. */

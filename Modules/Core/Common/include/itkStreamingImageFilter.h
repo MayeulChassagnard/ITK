@@ -18,6 +18,7 @@
 #ifndef itkStreamingImageFilter_h
 #define itkStreamingImageFilter_h
 
+#include "ITKCommonExport.h"
 #include "itkImageToImageFilter.h"
 #include "itkImageRegionSplitterBase.h"
 
@@ -41,7 +42,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TInputImage, typename TOutputImage >
-class StreamingImageFilter:public ImageToImageFilter< TInputImage, TOutputImage >
+class ITKCommon_TEMPLATE_EXPORT StreamingImageFilter:public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:
   /** Standard class typedefs. */

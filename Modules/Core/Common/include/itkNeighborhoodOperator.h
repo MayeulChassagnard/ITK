@@ -18,6 +18,7 @@
 #ifndef itkNeighborhoodOperator_h
 #define itkNeighborhoodOperator_h
 
+#include "ITKCommonExport.h"
 #include "itkNeighborhood.h"
 #include "itkNumericTraits.h"
 #include <vector>
@@ -63,7 +64,7 @@ namespace itk
  */
 template< typename TPixel, unsigned int VDimension,
           typename TAllocator = NeighborhoodAllocator< TPixel > >
-class NeighborhoodOperator:
+class ITKCommon_TEMPLATE_EXPORT NeighborhoodOperator:
   public Neighborhood< TPixel, VDimension, TAllocator >
 {
 public:

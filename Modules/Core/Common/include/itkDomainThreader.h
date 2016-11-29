@@ -18,6 +18,7 @@
 #ifndef itkDomainThreader_h
 #define itkDomainThreader_h
 
+#include "ITKCommonExport.h"
 #include "itkObject.h"
 #include "itkMultiThreader.h"
 
@@ -63,7 +64,7 @@ namespace itk
  *  \ingroup ITKCommon
  */
 template< typename TDomainPartitioner, typename TAssociate >
-class DomainThreader: public Object
+class ITKCommon_TEMPLATE_EXPORT DomainThreader: public Object
 {
 public:
   /** Standard class typedefs. */

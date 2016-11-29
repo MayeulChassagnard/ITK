@@ -18,6 +18,7 @@
 #ifndef itkMatrixResizeableDataObject_h
 #define itkMatrixResizeableDataObject_h
 
+#include "ITKCommonExport.h"
 #include "itkDataObject.h"
 #include "itkObjectFactory.h"
 #include "vnl/vnl_matrix.h"
@@ -34,7 +35,7 @@ namespace itk
  */
 
 template< typename TItemType >
-class MatrixResizeableDataObject:public DataObject, public vnl_matrix< TItemType >
+class ITKCommon_TEMPLATE_EXPORT MatrixResizeableDataObject:public DataObject, public vnl_matrix< TItemType >
 {
 public:
 

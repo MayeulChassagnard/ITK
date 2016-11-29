@@ -18,6 +18,7 @@
 #ifndef itkTorusInteriorExteriorSpatialFunction_h
 #define itkTorusInteriorExteriorSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "vnl/vnl_vector.h"
 #include "itkInteriorExteriorSpatialFunction.h"
 #include "itkCovariantVector.h"
@@ -37,7 +38,7 @@ namespace itk
  */
 
 template< unsigned int VDimension = 3, typename TInput = Point< double, 3 > >
-class TorusInteriorExteriorSpatialFunction:
+class ITKCommon_TEMPLATE_EXPORT TorusInteriorExteriorSpatialFunction:
   public InteriorExteriorSpatialFunction< VDimension, TInput >
 {
 public:

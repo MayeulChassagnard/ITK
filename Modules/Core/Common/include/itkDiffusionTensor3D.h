@@ -23,6 +23,7 @@
 #undef DiffusionTensor3D
 #endif
 
+#include "ITKCommonExport.h"
 #include "itkSymmetricSecondRankTensor.h"
 
 namespace itk
@@ -76,7 +77,7 @@ namespace itk
  */
 
 template< typename TComponent >
-class DiffusionTensor3D:public SymmetricSecondRankTensor< TComponent, 3 >
+class ITKCommon_TEMPLATE_EXPORT DiffusionTensor3D:public SymmetricSecondRankTensor< TComponent, 3 >
 {
 public:
   /** Standard class typedefs. */

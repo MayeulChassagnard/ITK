@@ -18,6 +18,7 @@
 #ifndef itkSparseImage_h
 #define itkSparseImage_h
 
+#include "ITKCommonExport.h"
 #include "itkImage.h"
 #include "itkSparseFieldLayer.h"
 #include "itkObjectStore.h"
@@ -64,7 +65,7 @@ namespace itk
  */
 
 template< typename TNode, unsigned int VImageDimension = 2 >
-class SparseImage:public Image< TNode *, VImageDimension >
+class ITKCommon_TEMPLATE_EXPORT SparseImage:public Image< TNode *, VImageDimension >
 {
 public:
   /** Standard typedefs. */

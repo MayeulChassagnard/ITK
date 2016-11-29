@@ -18,6 +18,7 @@
 #ifndef itkSmartPointerForwardReference_h
 #define itkSmartPointerForwardReference_h
 
+#include "ITKCommonExport.h"
 #include "itkWeakPointer.h"
 
 #include <iostream>
@@ -45,7 +46,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename T >
-class SmartPointerForwardReference
+class ITKCommon_TEMPLATE_EXPORT SmartPointerForwardReference
 {
 public:
   /** Constructor  */

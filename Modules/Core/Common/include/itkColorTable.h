@@ -18,6 +18,7 @@
 #ifndef itkColorTable_h
 #define itkColorTable_h
 
+#include "ITKCommonExport.h"
 #include "itkObject.h"
 #include "itkRGBPixel.h"
 #include "itkObjectFactory.h"
@@ -37,7 +38,7 @@ namespace itk
  */
 
 template< typename TPixel >
-class ColorTable:public Object
+class ITKCommon_TEMPLATE_EXPORT ColorTable:public Object
 {
 public:
   /** Standard class typedefs. */

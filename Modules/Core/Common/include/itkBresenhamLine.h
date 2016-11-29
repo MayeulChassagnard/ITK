@@ -18,6 +18,7 @@
 #ifndef itkBresenhamLine_h
 #define itkBresenhamLine_h
 
+#include "ITKCommonExport.h"
 #include "itkVector.h"
 #include "itkIndex.h"
 #include <vector>
@@ -29,7 +30,7 @@ namespace itk
 * length */
 
 template< unsigned int VDimension >
-class BresenhamLine
+class ITKCommon_TEMPLATE_EXPORT BresenhamLine
 {
 public:
   typedef BresenhamLine Self;

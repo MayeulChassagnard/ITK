@@ -18,6 +18,7 @@
 #ifndef itkTetrahedronCell_h
 #define itkTetrahedronCell_h
 
+#include "ITKCommonExport.h"
 #include "itkTriangleCell.h"
 #include "itkTetrahedronCellTopology.h"
 
@@ -34,7 +35,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TCellInterface >
-class TetrahedronCell:public TCellInterface, private TetrahedronCellTopology
+class ITKCommon_TEMPLATE_EXPORT TetrahedronCell:public TCellInterface, private TetrahedronCellTopology
 {
 public:
   /** Standard class typedefa. */

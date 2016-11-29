@@ -19,6 +19,7 @@
 #define itkAtanRegularizedHeavisideStepFunction_h
 
 #include "itkRegularizedHeavisideStepFunction.h"
+#include "ITKCommonExport.h"
 
 namespace itk
 {
@@ -50,7 +51,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TInput = float, typename TOutput = double >
-class AtanRegularizedHeavisideStepFunction:
+class ITKCommon_TEMPLATE_EXPORT AtanRegularizedHeavisideStepFunction:
   public RegularizedHeavisideStepFunction< TInput, TOutput >
 {
 public:

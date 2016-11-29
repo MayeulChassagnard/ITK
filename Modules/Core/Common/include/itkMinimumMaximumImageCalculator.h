@@ -18,6 +18,7 @@
 #ifndef itkMinimumMaximumImageCalculator_h
 #define itkMinimumMaximumImageCalculator_h
 
+#include "ITKCommonExport.h"
 #include "itkObject.h"
 #include "itkObjectFactory.h"
 
@@ -41,7 +42,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage >
-class MinimumMaximumImageCalculator:public Object
+class ITKCommon_TEMPLATE_EXPORT MinimumMaximumImageCalculator:public Object
 {
 public:
   /** Standard class typedefs. */

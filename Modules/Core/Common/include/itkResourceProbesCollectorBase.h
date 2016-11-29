@@ -19,6 +19,7 @@
 #define itkResourceProbesCollectorBase_h
 
 
+#include "ITKCommonExport.h"
 #include "itkResourceProbe.h"
 #include "itkMemoryUsageObserver.h"
 
@@ -35,7 +36,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TProbe >
-class ResourceProbesCollectorBase
+class ITKCommon_TEMPLATE_EXPORT ResourceProbesCollectorBase
 {
 public:
   typedef std::string                IdType;

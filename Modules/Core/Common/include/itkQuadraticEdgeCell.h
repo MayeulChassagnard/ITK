@@ -18,6 +18,7 @@
 #ifndef itkQuadraticEdgeCell_h
 #define itkQuadraticEdgeCell_h
 
+#include "ITKCommonExport.h"
 #include "itkVertexCell.h"
 
 namespace itk
@@ -34,7 +35,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TCellInterface >
-class QuadraticEdgeCell:public TCellInterface
+class ITKCommon_TEMPLATE_EXPORT QuadraticEdgeCell:public TCellInterface
 {
 public:
   /** Standard class typedefs. */

@@ -18,6 +18,7 @@
 #ifndef itkEllipsoidInteriorExteriorSpatialFunction_h
 #define itkEllipsoidInteriorExteriorSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkInteriorExteriorSpatialFunction.h"
 #include "vnl/vnl_matrix_fixed.h"
 
@@ -37,7 +38,7 @@ namespace itk
  */
 template< unsigned int VDimension = 3,
           typename TInput = Point< double, VDimension > >
-class EllipsoidInteriorExteriorSpatialFunction:
+class ITKCommon_TEMPLATE_EXPORT EllipsoidInteriorExteriorSpatialFunction:
   public InteriorExteriorSpatialFunction< VDimension, TInput >
 {
 public:

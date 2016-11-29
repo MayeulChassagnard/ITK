@@ -19,6 +19,7 @@
 #define itkArray_h
 
 #include "itkMacro.h"
+#include "ITKCommonExport.h"
 
 #include "vxl_version.h"
 #if VXL_VERSION_DATE_FULL < 20110428
@@ -47,7 +48,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TValue >
-class Array : public vnl_vector< TValue >
+class ITKCommon_TEMPLATE_EXPORT Array : public vnl_vector< TValue >
 {
 public:
 

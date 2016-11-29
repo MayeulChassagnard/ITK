@@ -18,6 +18,7 @@
 #ifndef itkVector_h
 #define itkVector_h
 
+#include "ITKCommonExport.h"
 #include "itkFixedArray.h"
 
 #include "vnl/vnl_vector_ref.h" // GetVnlVector method return
@@ -59,7 +60,7 @@ namespace itk
  * \endwiki
  */
 template< typename T, unsigned int NVectorDimension = 3 >
-class Vector:public FixedArray< T, NVectorDimension >
+class ITKCommon_TEMPLATE_EXPORT Vector:public FixedArray< T, NVectorDimension >
 {
 public:
   /** Standard class typedefs. */

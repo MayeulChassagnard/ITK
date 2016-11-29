@@ -18,6 +18,7 @@
 #ifndef itkConstantBoundaryCondition_h
 #define itkConstantBoundaryCondition_h
 
+#include "ITKCommonExport.h"
 #include "itkNumericTraits.h"
 #include "itkImageBoundaryCondition.h"
 
@@ -64,7 +65,7 @@ template <typename TValue> class VariableLengthVector;
  * \endwiki
  */
 template< typename TInputImage, typename TOutputImage = TInputImage >
-class ConstantBoundaryCondition:
+class ITKCommon_TEMPLATE_EXPORT ConstantBoundaryCondition:
     public ImageBoundaryCondition< TInputImage, TOutputImage >
 {
 public:

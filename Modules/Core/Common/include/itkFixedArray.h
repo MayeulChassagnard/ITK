@@ -19,6 +19,7 @@
 #define itkFixedArray_h
 
 #include "itkMacro.h"
+#include "ITKCommonExport.h"
 
 namespace itk
 {
@@ -47,7 +48,7 @@ namespace itk
  * \endwiki
  */
 template< typename TValue, unsigned int VLength = 3 >
-class FixedArray
+class ITKCommon_TEMPLATE_EXPORT FixedArray
 {
 public:
   /** Length constant */

@@ -18,6 +18,7 @@
 #ifndef itkImageRegionConstIteratorWithIndex_h
 #define itkImageRegionConstIteratorWithIndex_h
 
+#include "ITKCommonExport.h"
 #include "itkImageConstIteratorWithIndex.h"
 
 namespace itk
@@ -124,7 +125,7 @@ namespace itk
  * \endwiki
  */
 template< typename TImage >
-class ImageRegionConstIteratorWithIndex:public ImageConstIteratorWithIndex< TImage >
+class ITKCommon_TEMPLATE_EXPORT ImageRegionConstIteratorWithIndex:public ImageConstIteratorWithIndex< TImage >
 {
 public:
   /** Standard class typedefs. */

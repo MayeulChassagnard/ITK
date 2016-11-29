@@ -18,6 +18,7 @@
 #ifndef itkSpecialCoordinatesImage_h
 #define itkSpecialCoordinatesImage_h
 
+#include "ITKCommonExport.h"
 #include "itkImageBase.h"
 #include "itkImportImageContainer.h"
 #include "itkDefaultPixelAccessor.h"
@@ -92,7 +93,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TPixel, unsigned int VImageDimension = 2 >
-class SpecialCoordinatesImage:public ImageBase< VImageDimension >
+class ITKCommon_TEMPLATE_EXPORT SpecialCoordinatesImage:public ImageBase< VImageDimension >
 {
 public:
   /** Standard class typedefs */

@@ -18,6 +18,7 @@
 #ifndef itkConstNeighborhoodIterator_h
 #define itkConstNeighborhoodIterator_h
 
+#include "ITKCommonExport.h"
 #include <vector>
 #include <cstring>
 #include <iostream>
@@ -48,7 +49,7 @@ namespace itk
  */
 template< typename TImage,  typename TBoundaryCondition =
             ZeroFluxNeumannBoundaryCondition< TImage > >
-class ConstNeighborhoodIterator:
+class ITKCommon_TEMPLATE_EXPORT ConstNeighborhoodIterator:
   public Neighborhood< typename TImage::InternalPixelType *,
                        TImage::ImageDimension >
 {

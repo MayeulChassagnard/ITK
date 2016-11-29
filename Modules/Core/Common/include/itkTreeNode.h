@@ -18,6 +18,7 @@
 #ifndef itkTreeNode_h
 #define itkTreeNode_h
 
+#include "ITKCommonExport.h"
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -40,7 +41,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TValue >
-class TreeNode:public Object
+class ITKCommon_TEMPLATE_EXPORT TreeNode:public Object
 {
 public:
 

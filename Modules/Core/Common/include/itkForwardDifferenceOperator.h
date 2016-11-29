@@ -18,6 +18,7 @@
 #ifndef itkForwardDifferenceOperator_h
 #define itkForwardDifferenceOperator_h
 
+#include "ITKCommonExport.h"
 #include "itkNeighborhoodOperator.h"
 
 namespace itk
@@ -42,7 +43,7 @@ namespace itk
  */
 template< typename TPixel, unsigned int VDimension = 2,
           typename TAllocator = NeighborhoodAllocator< TPixel > >
-class ForwardDifferenceOperator:
+class ITKCommon_TEMPLATE_EXPORT ForwardDifferenceOperator:
   public NeighborhoodOperator< TPixel, VDimension, TAllocator >
 {
 public:

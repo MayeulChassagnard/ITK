@@ -18,6 +18,7 @@
 #ifndef itkImageTransformHelper_h
 #define itkImageTransformHelper_h
 
+#include "ITKCommonExport.h"
 #include "itkConceptChecking.h"
 #include "itkImageBase.h"
 #include "itkMatrix.h"
@@ -30,7 +31,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< unsigned int NImageDimension, unsigned int R, unsigned int C, typename TPointValue = double, typename TMatrixValue=double >
-class ImageTransformHelper
+class ITKCommon_TEMPLATE_EXPORT ImageTransformHelper
 {
 public:
   typedef ImageBase< NImageDimension >                             ImageType;

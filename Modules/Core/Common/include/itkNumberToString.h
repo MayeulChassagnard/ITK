@@ -18,6 +18,7 @@
 #ifndef itkNumberToString_h
 #define itkNumberToString_h
 
+#include "ITKCommonExport.h"
 #include "itkMacro.h"
 #include <string>
 
@@ -39,7 +40,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TValue>
-class NumberToString
+class ITKCommon_TEMPLATE_EXPORT NumberToString
 {
 public:
   std::string operator() (TValue val);

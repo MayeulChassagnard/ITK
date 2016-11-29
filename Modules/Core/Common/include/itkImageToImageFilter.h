@@ -28,6 +28,7 @@
 #ifndef itkImageToImageFilter_h
 #define itkImageToImageFilter_h
 
+#include "ITKCommonExport.h"
 #include "itkImageSource.h"
 #include "itkConceptChecking.h"
 #include "itkImageToImageFilterDetail.h"
@@ -104,7 +105,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage, typename TOutputImage >
-class ImageToImageFilter:public ImageSource< TOutputImage >,
+class ITKCommon_TEMPLATE_EXPORT ImageToImageFilter:public ImageSource< TOutputImage >,
   private ImageToImageFilterCommon
 {
 public:

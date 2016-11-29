@@ -18,6 +18,7 @@
 #ifndef itkImageConstIterator_h
 #define itkImageConstIterator_h
 
+#include "ITKCommonExport.h"
 #include "itkImage.h"
 #include "itkIndex.h"
 #include "itkNumericTraits.h"
@@ -81,7 +82,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TImage >
-class ImageConstIterator
+class ITKCommon_TEMPLATE_EXPORT ImageConstIterator
 {
 public:
   /** Standard class typedefs. */

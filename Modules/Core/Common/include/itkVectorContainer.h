@@ -20,6 +20,7 @@
 
 #include "itkObject.h"
 #include "itkObjectFactory.h"
+#include "ITKCommonExport.h"
 
 #include <utility>
 #include <vector>
@@ -48,7 +49,7 @@ template<
   typename TElementIdentifier,
   typename TElement
   >
-class VectorContainer:
+class ITKCommon_TEMPLATE_EXPORT VectorContainer:
   public Object,
   private std::vector< TElement >
 {

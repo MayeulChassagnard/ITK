@@ -18,6 +18,7 @@
 #ifndef itkHexahedronCell_h
 #define itkHexahedronCell_h
 
+#include "ITKCommonExport.h"
 #include "itkQuadrilateralCell.h"
 #include "itkHexahedronCellTopology.h"
 
@@ -41,7 +42,7 @@ namespace itk
  */
 
 template< typename TCellInterface >
-class HexahedronCell:public TCellInterface, private HexahedronCellTopology
+class ITKCommon_TEMPLATE_EXPORT HexahedronCell:public TCellInterface, private HexahedronCellTopology
 {
 public:
   /** Standard class typedefs. */

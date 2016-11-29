@@ -18,6 +18,7 @@
 #ifndef itkGaussianDerivativeOperator_h
 #define itkGaussianDerivativeOperator_h
 
+#include "ITKCommonExport.h"
 #include "itkGaussianOperator.h"
 #include "itkDerivativeOperator.h"
 
@@ -76,7 +77,7 @@ namespace itk
  */
 template< typename TPixel, unsigned int VDimension = 2,
           typename TAllocator = NeighborhoodAllocator< TPixel > >
-class GaussianDerivativeOperator :
+class ITKCommon_TEMPLATE_EXPORT GaussianDerivativeOperator :
   public NeighborhoodOperator< TPixel, VDimension, TAllocator >
 {
 public:

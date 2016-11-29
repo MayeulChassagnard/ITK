@@ -18,6 +18,7 @@
 #ifndef itkImportImageFilter_h
 #define itkImportImageFilter_h
 
+#include "ITKCommonExport.h"
 #include "itkImageSource.h"
 
 namespace itk
@@ -40,7 +41,7 @@ namespace itk
  * \endwiki
  */
 template< typename TPixel, unsigned int VImageDimension = 2 >
-class ImportImageFilter:
+class ITKCommon_TEMPLATE_EXPORT ImportImageFilter:
   public ImageSource< Image< TPixel, VImageDimension > >
 {
 public:

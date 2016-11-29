@@ -19,6 +19,7 @@
 #define itkBackwardDifferenceOperator_h
 
 #include "itkNeighborhoodOperator.h"
+#include "ITKCommonExport.h"
 
 namespace itk
 {
@@ -43,7 +44,7 @@ namespace itk
  */
 template< typename TPixel, unsigned int TDimension = 2,
           typename TAllocator = NeighborhoodAllocator< TPixel > >
-class BackwardDifferenceOperator:
+class ITKCommon_TEMPLATE_EXPORT BackwardDifferenceOperator:
   public NeighborhoodOperator< TPixel, TDimension, TAllocator >
 {
 public:

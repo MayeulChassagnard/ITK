@@ -18,6 +18,7 @@
 #ifndef itkUnaryFunctorImageFilter_h
 #define itkUnaryFunctorImageFilter_h
 
+#include "ITKCommonExport.h"
 #include "itkMath.h"
 #include "itkInPlaceImageFilter.h"
 #include "itkImageRegionIteratorWithIndex.h"
@@ -46,7 +47,7 @@ namespace itk
  * \endwiki
  */
 template< typename TInputImage, typename TOutputImage, typename TFunction >
-class UnaryFunctorImageFilter:public InPlaceImageFilter< TInputImage, TOutputImage >
+class ITKCommon_TEMPLATE_EXPORT UnaryFunctorImageFilter:public InPlaceImageFilter< TInputImage, TOutputImage >
 {
 public:
   /** Standard class typedefs. */

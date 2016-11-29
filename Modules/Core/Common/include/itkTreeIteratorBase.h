@@ -18,6 +18,7 @@
 #ifndef itkTreeIteratorBase_h
 #define itkTreeIteratorBase_h
 
+#include "ITKCommonExport.h"
 #include "itkTreeNode.h"
 
 namespace itk
@@ -39,7 +40,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TTreeType >
-class TreeIteratorBase
+class ITKCommon_TEMPLATE_EXPORT TreeIteratorBase
 {
 public:
 

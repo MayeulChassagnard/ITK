@@ -18,6 +18,7 @@
 #ifndef itkImageRandomConstIteratorWithOnlyIndex_h
 #define itkImageRandomConstIteratorWithOnlyIndex_h
 
+#include "ITKCommonExport.h"
 #include "itkImageConstIteratorWithOnlyIndex.h"
 #include "itkMersenneTwisterRandomVariateGenerator.h"
 
@@ -120,7 +121,7 @@ namespace itk
  *
  */
 template< typename TImage >
-class ImageRandomConstIteratorWithOnlyIndex:public ImageConstIteratorWithOnlyIndex< TImage >
+class ITKCommon_TEMPLATE_EXPORT ImageRandomConstIteratorWithOnlyIndex:public ImageConstIteratorWithOnlyIndex< TImage >
 {
 public:
   /** Standard class typedefs. */

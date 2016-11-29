@@ -18,6 +18,7 @@
 #ifndef itkTriangleHelper_h
 #define itkTriangleHelper_h
 
+#include "ITKCommonExport.h"
 #include "itkCrossHelper.h"
 
 namespace itk
@@ -28,7 +29,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TPoint >
-class TriangleHelper
+class ITKCommon_TEMPLATE_EXPORT TriangleHelper
 {
 public:
   typedef TriangleHelper                   Self;

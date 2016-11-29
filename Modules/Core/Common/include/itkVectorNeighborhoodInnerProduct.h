@@ -18,6 +18,7 @@
 #ifndef itkVectorNeighborhoodInnerProduct_h
 #define itkVectorNeighborhoodInnerProduct_h
 
+#include "ITKCommonExport.h"
 #include "itkNeighborhoodIterator.h"
 #include "itkVector.h"
 #include "itkConstSliceIterator.h"
@@ -42,7 +43,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TImage >
-class VectorNeighborhoodInnerProduct
+class ITKCommon_TEMPLATE_EXPORT VectorNeighborhoodInnerProduct
 {
 public:
   /** Standard typedefs */

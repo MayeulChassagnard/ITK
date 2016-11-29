@@ -18,6 +18,7 @@
 #ifndef itkQuadraticTriangleCell_h
 #define itkQuadraticTriangleCell_h
 
+#include "ITKCommonExport.h"
 #include "itkQuadraticEdgeCell.h"
 #include "itkQuadraticTriangleCellTopology.h"
 
@@ -35,7 +36,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TCellInterface >
-class QuadraticTriangleCell:public TCellInterface, private QuadraticTriangleCellTopology
+class ITKCommon_TEMPLATE_EXPORT QuadraticTriangleCell:public TCellInterface, private QuadraticTriangleCellTopology
 {
 public:
   /** Standard class typedefs. */

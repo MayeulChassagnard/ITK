@@ -18,6 +18,7 @@
 #ifndef itkTriangleCell_h
 #define itkTriangleCell_h
 
+#include "ITKCommonExport.h"
 #include "itkLineCell.h"
 #include "itkTriangleCellTopology.h"
 
@@ -42,7 +43,7 @@ namespace itk
  */
 
 template< typename TCellInterface >
-class TriangleCell:
+class ITKCommon_TEMPLATE_EXPORT TriangleCell:
   public TCellInterface, private TriangleCellTopology
 {
 public:

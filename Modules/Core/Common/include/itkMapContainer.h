@@ -18,6 +18,7 @@
 #ifndef itkMapContainer_h
 #define itkMapContainer_h
 
+#include "ITKCommonExport.h"
 #include "itkObject.h"
 #include "itkObjectFactory.h"
 
@@ -42,7 +43,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TElementIdentifier, typename TElement >
-class MapContainer:
+class ITKCommon_TEMPLATE_EXPORT MapContainer:
   public Object,
   private std::map< TElementIdentifier, TElement >
 {

@@ -28,6 +28,7 @@
 #ifndef itkPointSet_h
 #define itkPointSet_h
 
+#include "ITKCommonExport.h"
 #include "itkDataObject.h"
 #include "itkDefaultStaticMeshTraits.h"
 #include <vector>
@@ -81,7 +82,7 @@ template<
   unsigned int VDimension = 3,
   typename TMeshTraits = DefaultStaticMeshTraits< TPixelType, VDimension, VDimension >
   >
-class PointSet:public DataObject
+class ITKCommon_TEMPLATE_EXPORT PointSet:public DataObject
 {
 public:
   /** Standard class typedefs. */

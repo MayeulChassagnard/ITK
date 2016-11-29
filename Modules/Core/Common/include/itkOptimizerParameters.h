@@ -18,6 +18,7 @@
 #ifndef itkOptimizerParameters_h
 #define itkOptimizerParameters_h
 
+#include "ITKCommonExport.h"
 #include "itkArray.h"
 #include "itkOptimizerParametersHelper.h"
 
@@ -31,7 +32,7 @@ namespace itk
  */
 
 template<typename TParametersValueType>
-class OptimizerParameters : public Array<TParametersValueType>
+class ITKCommon_TEMPLATE_EXPORT OptimizerParameters : public Array<TParametersValueType>
 {
 public:
 

@@ -29,6 +29,7 @@
 #define itkImageRegion_h
 
 #include "itkRegion.h"
+#include "ITKCommonExport.h"
 
 #include "itkSize.h"
 #include "itkContinuousIndex.h"
@@ -66,7 +67,7 @@ class ImageBase;
  * \endwiki
  */
 template< unsigned int VImageDimension >
-class ImageRegion:public Region
+class ITKCommon_TEMPLATE_EXPORT ImageRegion:public Region
 {
 public:
   /** Standard class typedefs. */

@@ -18,6 +18,7 @@
 #ifndef itkUnaryCorrespondenceMatrix_h
 #define itkUnaryCorrespondenceMatrix_h
 
+#include "ITKCommonExport.h"
 #include "itkObjectFactory.h"
 #include "itkDataObject.h"
 #include "vnl/vnl_matrix.h"
@@ -33,7 +34,7 @@ namespace itk
  */
 
 template< typename TItemType >
-class UnaryCorrespondenceMatrix:public DataObject, public vnl_matrix< TItemType >
+class ITKCommon_TEMPLATE_EXPORT UnaryCorrespondenceMatrix:public DataObject, public vnl_matrix< TItemType >
 {
 public:
 

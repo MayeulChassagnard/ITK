@@ -18,6 +18,7 @@
 #ifndef itkSphereSpatialFunction_h
 #define itkSphereSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkInteriorExteriorSpatialFunction.h"
 
 namespace itk
@@ -32,7 +33,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< unsigned int VImageDimension = 3, typename TInput = Point< double, VImageDimension > >
-class SphereSpatialFunction:
+class ITKCommon_TEMPLATE_EXPORT SphereSpatialFunction:
   public InteriorExteriorSpatialFunction< VImageDimension, TInput >
 {
 public:

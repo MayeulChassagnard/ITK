@@ -18,6 +18,7 @@
 #ifndef itkVectorImage_h
 #define itkVectorImage_h
 
+#include "ITKCommonExport.h"
 #include "itkImageRegion.h"
 #include "itkImportImageContainer.h"
 #include "itkDefaultVectorPixelAccessor.h"
@@ -78,7 +79,7 @@ namespace itk
  * \endwiki
  */
 template< typename TPixel, unsigned int VImageDimension = 3 >
-class VectorImage:
+class ITKCommon_TEMPLATE_EXPORT VectorImage:
   public ImageBase< VImageDimension >
 {
 public:

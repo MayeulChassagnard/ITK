@@ -18,6 +18,7 @@
 #ifndef itkFrustumSpatialFunction_h
 #define itkFrustumSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkInteriorExteriorSpatialFunction.h"
 
 namespace itk
@@ -36,7 +37,7 @@ namespace itk
  */
 
 template< unsigned int VImageDimension = 3, typename TInput = Point< double, 3 > >
-class FrustumSpatialFunction:
+class ITKCommon_TEMPLATE_EXPORT FrustumSpatialFunction:
   public InteriorExteriorSpatialFunction< VImageDimension, TInput >
 {
 public:

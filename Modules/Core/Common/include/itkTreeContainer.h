@@ -18,6 +18,7 @@
 #ifndef itkTreeContainer_h
 #define itkTreeContainer_h
 
+#include "ITKCommonExport.h"
 #include "itkTreeContainerBase.h"
 #include "itkPreOrderTreeIterator.h"
 
@@ -35,7 +36,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TValue >
-class TreeContainer:public TreeContainerBase< TValue >
+class ITKCommon_TEMPLATE_EXPORT TreeContainer:public TreeContainerBase< TValue >
 {
 public:
 

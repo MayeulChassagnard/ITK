@@ -31,6 +31,7 @@
 #include <memory>
 #include "itkDataObject.h"
 #include "itkObjectFactory.h"
+#include "ITKCommonExport.h"
 
 namespace itk
 {
@@ -58,7 +59,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename T >
-class AutoPointerDataObjectDecorator:public DataObject
+class ITKCommon_TEMPLATE_EXPORT AutoPointerDataObjectDecorator:public DataObject
 {
 public:
   /** Standard typedefs. */

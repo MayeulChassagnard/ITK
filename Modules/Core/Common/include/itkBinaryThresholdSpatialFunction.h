@@ -18,6 +18,7 @@
 #ifndef itkBinaryThresholdSpatialFunction_h
 #define itkBinaryThresholdSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkSpatialFunction.h"
 #include "itkImageBase.h"
 
@@ -39,7 +40,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TFunction >
-class BinaryThresholdSpatialFunction:
+class ITKCommon_TEMPLATE_EXPORT BinaryThresholdSpatialFunction:
   public SpatialFunction< bool,
                           TFunction::ImageDimension,
                           typename TFunction::InputType >

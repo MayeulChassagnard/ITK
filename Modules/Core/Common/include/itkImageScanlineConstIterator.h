@@ -18,6 +18,7 @@
 #ifndef itkImageScanlineConstIterator_h
 #define itkImageScanlineConstIterator_h
 
+#include "ITKCommonExport.h"
 #include "itkImageIterator.h"
 
 namespace itk
@@ -60,7 +61,7 @@ while ( !it.IsAtEnd() )
  *
  */
 template< typename TImage >
-class ImageScanlineConstIterator:
+class ITKCommon_TEMPLATE_EXPORT ImageScanlineConstIterator:
     public ImageConstIterator< TImage >
 {
 public:

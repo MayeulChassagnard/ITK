@@ -18,6 +18,7 @@
 #ifndef itkExtractImageFilter_h
 #define itkExtractImageFilter_h
 
+#include "ITKCommonExport.h"
 #include "itkInPlaceImageFilter.h"
 #include "itkSmartPointer.h"
 #include "itkExtractImageFilterRegionCopier.h"
@@ -87,7 +88,7 @@ namespace itk
  */
 
 template< typename TInputImage, typename TOutputImage >
-class ExtractImageFilter:
+class ITKCommon_TEMPLATE_EXPORT ExtractImageFilter:
   public InPlaceImageFilter< TInputImage, TOutputImage >
 {
 public:

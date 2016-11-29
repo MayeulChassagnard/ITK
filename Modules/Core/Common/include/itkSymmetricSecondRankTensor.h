@@ -23,6 +23,7 @@
 #undef SymmetricSecondRankTensor
 #endif
 
+#include "ITKCommonExport.h"
 #include "itkIndent.h"
 #include "itkFixedArray.h"
 #include "itkMatrix.h"
@@ -72,7 +73,7 @@ namespace itk
  */
 
 template< typename TComponent, unsigned int NDimension = 3 >
-class SymmetricSecondRankTensor:public
+class ITKCommon_TEMPLATE_EXPORT SymmetricSecondRankTensor:public
   FixedArray< TComponent, NDimension *( NDimension + 1 ) / 2 >
 {
 public:

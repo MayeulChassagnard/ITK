@@ -20,6 +20,7 @@
 
 #include "itkNeighborhoodOperator.h"
 #include "itkVector.h"
+#include "ITKCommonExport.h"
 
 namespace itk
 {
@@ -67,7 +68,7 @@ namespace itk
  */
 template< typename TPixel, unsigned int TDimension = 2,
           typename TAllocator = NeighborhoodAllocator< TPixel > >
-class AnnulusOperator:
+class ITKCommon_TEMPLATE_EXPORT AnnulusOperator:
   public NeighborhoodOperator< TPixel, TDimension, TAllocator >
 {
 public:

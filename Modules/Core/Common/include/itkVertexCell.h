@@ -18,6 +18,7 @@
 #ifndef itkVertexCell_h
 #define itkVertexCell_h
 
+#include "ITKCommonExport.h"
 #include "itkCellInterface.h"
 #include "itkNumericTraits.h"
 
@@ -36,7 +37,7 @@ namespace itk
  */
 
 template< typename TCellInterface >
-class VertexCell:public TCellInterface
+class ITKCommon_TEMPLATE_EXPORT VertexCell:public TCellInterface
 {
 public:
   /** Standard class typedefs. */

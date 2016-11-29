@@ -18,6 +18,7 @@
 #ifndef itkImageRegionExclusionIteratorWithIndex_h
 #define itkImageRegionExclusionIteratorWithIndex_h
 
+#include "ITKCommonExport.h"
 #include "itkImageRegionExclusionConstIteratorWithIndex.h"
 #include "itkImageIteratorWithIndex.h"
 
@@ -64,7 +65,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TImage >
-class ImageRegionExclusionIteratorWithIndex:public ImageRegionExclusionConstIteratorWithIndex< TImage >
+class ITKCommon_TEMPLATE_EXPORT ImageRegionExclusionIteratorWithIndex:public ImageRegionExclusionConstIteratorWithIndex< TImage >
 {
 public:
   /** Standard class typedefs. */

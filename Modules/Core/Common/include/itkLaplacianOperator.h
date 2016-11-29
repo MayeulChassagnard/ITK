@@ -18,6 +18,7 @@
 #ifndef itkLaplacianOperator_h
 #define itkLaplacianOperator_h
 
+#include "ITKCommonExport.h"
 #include "itkNeighborhoodOperator.h"
 
 namespace itk
@@ -61,7 +62,7 @@ namespace itk
  */
 template< typename TPixel, unsigned int VDimension = 2,
           typename TAllocator = NeighborhoodAllocator< TPixel > >
-class LaplacianOperator:
+class ITKCommon_TEMPLATE_EXPORT LaplacianOperator:
   public NeighborhoodOperator< TPixel, VDimension, TAllocator >
 {
 public:

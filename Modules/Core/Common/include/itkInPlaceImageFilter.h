@@ -28,6 +28,7 @@
 #ifndef itkInPlaceImageFilter_h
 #define itkInPlaceImageFilter_h
 
+#include "ITKCommonExport.h"
 #include "itkImageToImageFilter.h"
 #include "itkIsSame.h"
 
@@ -69,7 +70,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TInputImage, typename TOutputImage = TInputImage >
-class InPlaceImageFilter:public ImageToImageFilter< TInputImage, TOutputImage >
+class ITKCommon_TEMPLATE_EXPORT InPlaceImageFilter:public ImageToImageFilter< TInputImage, TOutputImage >
 {
 public:
   /** Standard class typedefs. */

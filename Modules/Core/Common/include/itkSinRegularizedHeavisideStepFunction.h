@@ -18,6 +18,7 @@
 #ifndef itkSinRegularizedHeavisideStepFunction_h
 #define itkSinRegularizedHeavisideStepFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkRegularizedHeavisideStepFunction.h"
 
 namespace itk
@@ -50,7 +51,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TInput = float, typename TOutput = double >
-class SinRegularizedHeavisideStepFunction:
+class ITKCommon_TEMPLATE_EXPORT SinRegularizedHeavisideStepFunction:
   public RegularizedHeavisideStepFunction< TInput, TOutput >
 {
 public:

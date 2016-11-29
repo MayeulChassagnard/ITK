@@ -18,6 +18,7 @@
 #ifndef itkNeighborhoodInnerProduct_h
 #define itkNeighborhoodInnerProduct_h
 
+#include "ITKCommonExport.h"
 #include "itkNeighborhoodIterator.h"
 #include "itkConstSliceIterator.h"
 #include "itkImageBoundaryCondition.h"
@@ -45,7 +46,7 @@ namespace itk
  */
 
 template< typename TImage, typename TOperator = typename TImage::PixelType, typename TComputation = TOperator >
-class NeighborhoodInnerProduct
+class ITKCommon_TEMPLATE_EXPORT NeighborhoodInnerProduct
 {
 public:
   /** Standard typedefs */

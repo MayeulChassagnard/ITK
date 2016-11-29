@@ -18,6 +18,7 @@
 #ifndef itkThreadedIteratorRangePartitioner_h
 #define itkThreadedIteratorRangePartitioner_h
 
+#include "ITKCommonExport.h"
 #include "itkThreadedDomainPartitioner.h"
 
 namespace itk
@@ -34,7 +35,7 @@ class ThreadedIteratorRangePartitioner;
  * \ingroup ITKCommon
  */
 template< typename TIterator >
-class ThreadedIteratorRangePartitionerDomain
+class ITKCommon_TEMPLATE_EXPORT ThreadedIteratorRangePartitionerDomain
 {
 public:
   typedef TIterator                              IteratorType;
@@ -104,7 +105,7 @@ private:
  * \ingroup ITKCommon
  */
 template< typename TIterator >
-class ThreadedIteratorRangePartitioner
+class ITKCommon_TEMPLATE_EXPORT ThreadedIteratorRangePartitioner
   : public ThreadedDomainPartitioner< ThreadedIteratorRangePartitionerDomain< TIterator > >
 {
 public:

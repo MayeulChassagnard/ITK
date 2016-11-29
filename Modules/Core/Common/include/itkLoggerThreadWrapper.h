@@ -18,6 +18,7 @@
 #ifndef itkLoggerThreadWrapper_h
 #define itkLoggerThreadWrapper_h
 
+#include "ITKCommonExport.h"
 #include <string>
 #include <queue>
 
@@ -37,7 +38,7 @@ namespace itk
  */
 
 template< typename SimpleLoggerType >
-class LoggerThreadWrapper:public SimpleLoggerType
+class ITKCommon_TEMPLATE_EXPORT LoggerThreadWrapper:public SimpleLoggerType
 {
 public:
 

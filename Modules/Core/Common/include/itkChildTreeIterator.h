@@ -18,12 +18,13 @@
 #ifndef itkChildTreeIterator_h
 #define itkChildTreeIterator_h
 
+#include "ITKCommonExport.h"
 #include "itkTreeIteratorBase.h"
 
 namespace itk
 {
 template< typename TTreeType >
-class ChildTreeIterator:public TreeIteratorBase< TTreeType >
+class ITKCommon_TEMPLATE_EXPORT ChildTreeIterator:public TreeIteratorBase< TTreeType >
 {
 public:
 

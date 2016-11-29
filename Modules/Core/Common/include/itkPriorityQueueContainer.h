@@ -21,6 +21,7 @@
 #include "itkVectorContainer.h"
 #include "itkIntTypes.h"
 #include "itkNumericTraits.h"
+#include "ITKCommonExport.h"
 
 #include <functional>
 #include <queue>
@@ -34,7 +35,7 @@ namespace itk
 // queue.
 template< typename TElement,
           typename TElementIdentifier = IdentifierType >
-class ElementWrapperInterface
+class ITKCommon_TEMPLATE_EXPORT ElementWrapperInterface
 {
 public:
   typedef TElement           ElementType;
@@ -66,7 +67,7 @@ public:
 //
 template< typename TElementWrapperPointer,
           typename TElementIdentifier = IdentifierType >
-class ElementWrapperPointerInterface
+class ITKCommon_TEMPLATE_EXPORT ElementWrapperPointerInterface
 {
 public:
   typedef TElementWrapperPointer ElementWrapperPointerType;
@@ -104,7 +105,7 @@ template<
   typename TElementPriority = double,
   typename TElementIdentifier = IdentifierType
   >
-class MinPriorityQueueElementWrapper:
+class ITKCommon_TEMPLATE_EXPORT MinPriorityQueueElementWrapper:
   public ElementWrapperInterface<
     MinPriorityQueueElementWrapper< TElement,
                                     TElementPriority,
@@ -162,7 +163,7 @@ template<
   typename TElementPriority = double,
   typename TElementIdentifier = IdentifierType
   >
-class MaxPriorityQueueElementWrapper:
+class ITKCommon_TEMPLATE_EXPORT MaxPriorityQueueElementWrapper:
   public MinPriorityQueueElementWrapper< TElement,
                                          TElementPriority,
                                          TElementIdentifier >
@@ -207,7 +208,7 @@ template<
   typename TElementPriority = double,
   typename TElementIdentifier = IdentifierType
   >
-class PriorityQueueContainer:
+class ITKCommon_TEMPLATE_EXPORT PriorityQueueContainer:
   public VectorContainer< TElementIdentifier, TElementWrapper >
 {
 public:

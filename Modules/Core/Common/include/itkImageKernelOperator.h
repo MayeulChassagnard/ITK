@@ -18,6 +18,7 @@
 #ifndef itkImageKernelOperator_h
 #define itkImageKernelOperator_h
 
+#include "ITKCommonExport.h"
 #include "itkNeighborhoodOperator.h"
 
 #include "itkImage.h"
@@ -45,7 +46,7 @@ namespace itk
  */
 template< typename TPixel, unsigned int VDimension = 2,
           typename TAllocator = NeighborhoodAllocator< TPixel > >
-class ImageKernelOperator :
+class ITKCommon_TEMPLATE_EXPORT ImageKernelOperator :
   public NeighborhoodOperator< TPixel, VDimension, TAllocator >
 {
 public:

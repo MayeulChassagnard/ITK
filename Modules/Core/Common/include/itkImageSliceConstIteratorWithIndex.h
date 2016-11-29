@@ -18,6 +18,7 @@
 #ifndef itkImageSliceConstIteratorWithIndex_h
 #define itkImageSliceConstIteratorWithIndex_h
 
+#include "ITKCommonExport.h"
 #include "itkImageConstIteratorWithIndex.h"
 
 namespace itk
@@ -110,7 +111,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TImage >
-class ImageSliceConstIteratorWithIndex:public ImageConstIteratorWithIndex< TImage >
+class ITKCommon_TEMPLATE_EXPORT ImageSliceConstIteratorWithIndex:public ImageConstIteratorWithIndex< TImage >
 {
 public:
   /** Standard class typedefs. */

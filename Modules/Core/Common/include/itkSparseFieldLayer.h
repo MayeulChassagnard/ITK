@@ -18,6 +18,7 @@
 #ifndef itkSparseFieldLayer_h
 #define itkSparseFieldLayer_h
 
+#include "ITKCommonExport.h"
 #include "itkObjectFactory.h"
 #include "itkObject.h"
 #include <vector>
@@ -33,7 +34,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TNodeType >
-class ConstSparseFieldLayerIterator
+class ITKCommon_TEMPLATE_EXPORT ConstSparseFieldLayerIterator
 {
 public:
   const TNodeType & operator*() const
@@ -86,7 +87,7 @@ protected:
  * \ingroup ITKCommon
  */
 template< typename TNodeType >
-class SparseFieldLayerIterator:
+class ITKCommon_TEMPLATE_EXPORT SparseFieldLayerIterator:
   public ConstSparseFieldLayerIterator< TNodeType >
 {
 public:
@@ -149,7 +150,7 @@ public:
  * \ingroup ITKCommon
  */
 template< typename TNodeType >
-class SparseFieldLayer:
+class ITKCommon_TEMPLATE_EXPORT SparseFieldLayer:
   public Object
 {
 public:

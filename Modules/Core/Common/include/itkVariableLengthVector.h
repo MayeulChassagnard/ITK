@@ -28,6 +28,7 @@
 #include "itkIsNumber.h"
 #include "itkPromoteType.h"
 #include "itkBinaryOperationConcept.h"
+#include "ITKCommonExport.h"
 
 namespace itk
 {
@@ -90,7 +91,7 @@ struct VariableLengthVectorExpression;
  * m_NumElements may be 0 and yet \c m_Data may be not null.)
  */
 template< typename TValue >
-class VariableLengthVector
+class ITKCommon_TEMPLATE_EXPORT VariableLengthVector
 {
 public:
   /**\name Policies

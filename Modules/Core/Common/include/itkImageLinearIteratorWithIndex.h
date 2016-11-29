@@ -18,6 +18,7 @@
 #ifndef itkImageLinearIteratorWithIndex_h
 #define itkImageLinearIteratorWithIndex_h
 
+#include "ITKCommonExport.h"
 #include "itkImageLinearConstIteratorWithIndex.h"
 #include "itkImageIteratorWithIndex.h"
 
@@ -64,7 +65,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TImage >
-class ImageLinearIteratorWithIndex:public ImageLinearConstIteratorWithIndex< TImage >
+class ITKCommon_TEMPLATE_EXPORT ImageLinearIteratorWithIndex:public ImageLinearConstIteratorWithIndex< TImage >
 {
 public:
   /** Standard class typedefs. */

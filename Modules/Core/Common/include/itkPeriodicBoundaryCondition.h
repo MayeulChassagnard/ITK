@@ -17,6 +17,7 @@
  *=========================================================================*/
 #ifndef itkPeriodicBoundaryCondition_h
 #define itkPeriodicBoundaryCondition_h
+#include "ITKCommonExport.h"
 #include "itkImageBoundaryCondition.h"
 
 namespace itk
@@ -35,7 +36,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TInputImage, typename TOutputImage = TInputImage >
-class PeriodicBoundaryCondition:
+class ITKCommon_TEMPLATE_EXPORT PeriodicBoundaryCondition:
     public ImageBoundaryCondition< TInputImage, TOutputImage >
 {
 public:

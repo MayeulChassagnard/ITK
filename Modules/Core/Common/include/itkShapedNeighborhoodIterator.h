@@ -21,6 +21,7 @@
 #include <vector>
 #include <list>
 #include "itkConstShapedNeighborhoodIterator.h"
+#include "ITKCommonExport.h"
 
 namespace itk
 {
@@ -149,7 +150,7 @@ namespace itk
  */
 template< typename TImage,  typename TBoundaryCondition =
             ZeroFluxNeumannBoundaryCondition< TImage > >
-class ShapedNeighborhoodIterator:
+class ITKCommon_TEMPLATE_EXPORT ShapedNeighborhoodIterator:
   public ConstShapedNeighborhoodIterator< TImage, TBoundaryCondition >
 {
 public:

@@ -28,6 +28,7 @@
 #ifndef itkImageTransformer_h
 #define itkImageTransformer_h
 
+#include "ITKCommonExport.h"
 #include "itkProcessObject.h"
 #include "itkImage.h"
 
@@ -56,7 +57,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TInputImage >
-class ImageTransformer:public ProcessObject
+class ITKCommon_TEMPLATE_EXPORT ImageTransformer:public ProcessObject
 {
 public:
   /** Standard class typedefs. */

@@ -28,6 +28,7 @@
 #ifndef itkPolygonCell_h
 #define itkPolygonCell_h
 
+#include "ITKCommonExport.h"
 #include "itkLineCell.h"
 #include "itkPoint.h"
 #include <vector>
@@ -50,7 +51,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TCellInterface >
-class PolygonCell:public TCellInterface
+class ITKCommon_TEMPLATE_EXPORT PolygonCell:public TCellInterface
 {
 public:
   /** Standard class typedefs. */

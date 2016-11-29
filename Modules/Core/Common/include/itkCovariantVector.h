@@ -18,6 +18,7 @@
 #ifndef itkCovariantVector_h
 #define itkCovariantVector_h
 
+#include "ITKCommonExport.h"
 #include "itkIndent.h"
 #include "itkVector.h"
 #include "vnl/vnl_vector_ref.h"
@@ -64,7 +65,7 @@ namespace itk
  */
 
 template< typename T, unsigned int NVectorDimension = 3 >
-class CovariantVector:public FixedArray< T, NVectorDimension >
+class ITKCommon_TEMPLATE_EXPORT CovariantVector:public FixedArray< T, NVectorDimension >
 {
 public:
   /** Standard class typedefs. */

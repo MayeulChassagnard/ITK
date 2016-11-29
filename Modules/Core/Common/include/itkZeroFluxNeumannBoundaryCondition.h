@@ -17,6 +17,7 @@
  *=========================================================================*/
 #ifndef itkZeroFluxNeumannBoundaryCondition_h
 #define itkZeroFluxNeumannBoundaryCondition_h
+#include "ITKCommonExport.h"
 #include "itkImageBoundaryCondition.h"
 
 namespace itk
@@ -55,7 +56,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TInputImage, typename TOutputImage = TInputImage >
-class ZeroFluxNeumannBoundaryCondition:
+class ITKCommon_TEMPLATE_EXPORT ZeroFluxNeumannBoundaryCondition:
     public ImageBoundaryCondition< TInputImage, TOutputImage >
 {
 public:

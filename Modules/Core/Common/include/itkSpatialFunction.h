@@ -18,6 +18,7 @@
 #ifndef itkSpatialFunction_h
 #define itkSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkFunctionBase.h"
 #include "itkPoint.h"
 
@@ -44,7 +45,7 @@ namespace itk
 template< typename TOutput,
           unsigned int VImageDimension = 3,
           typename TInput = Point< double, VImageDimension > >
-class SpatialFunction:public FunctionBase< TInput, TOutput >
+class ITKCommon_TEMPLATE_EXPORT SpatialFunction:public FunctionBase< TInput, TOutput >
 {
 public:
   /** Standard class typedefs. */

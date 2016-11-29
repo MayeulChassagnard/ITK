@@ -36,7 +36,7 @@ namespace itk
  */
 
 template< typename TCellInterface >
-class QuadrilateralCell:public TCellInterface, private QuadrilateralCellTopology
+class ITKCommon_TEMPLATE_EXPORT QuadrilateralCell:public TCellInterface, private QuadrilateralCellTopology
 {
 public:
   /** Standard class typedefs. */

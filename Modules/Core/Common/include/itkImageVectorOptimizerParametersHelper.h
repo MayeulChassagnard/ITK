@@ -18,6 +18,7 @@
 #ifndef itkImageVectorOptimizerParametersHelper_h
 #define itkImageVectorOptimizerParametersHelper_h
 
+#include "ITKCommonExport.h"
 #include "itkOptimizerParametersHelper.h"
 #include "itkImage.h"
 
@@ -36,7 +37,7 @@ namespace itk
 template< typename TValue,
           unsigned int NVectorDimension,
           unsigned int VImageDimension >
-class ImageVectorOptimizerParametersHelper
+class ITKCommon_TEMPLATE_EXPORT ImageVectorOptimizerParametersHelper
   : public OptimizerParametersHelper< TValue >
 {
 public:

@@ -18,6 +18,7 @@
 #ifndef itkFloodFilledSpatialFunctionConditionalConstIterator_h
 #define itkFloodFilledSpatialFunctionConditionalConstIterator_h
 
+#include "ITKCommonExport.h"
 #include "itkFloodFilledFunctionConditionalConstIterator.h"
 
 namespace itk
@@ -32,7 +33,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TImage, typename TFunction >
-class FloodFilledSpatialFunctionConditionalConstIterator:public FloodFilledFunctionConditionalConstIterator<
+class ITKCommon_TEMPLATE_EXPORT FloodFilledSpatialFunctionConditionalConstIterator:public FloodFilledFunctionConditionalConstIterator<
     TImage, TFunction >
 {
 public:

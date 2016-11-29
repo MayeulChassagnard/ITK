@@ -18,6 +18,7 @@
 #ifndef itkConicShellInteriorExteriorSpatialFunction_h
 #define itkConicShellInteriorExteriorSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "vnl/vnl_vector.h"
 #include "itkInteriorExteriorSpatialFunction.h"
 #include "itkCovariantVector.h"
@@ -57,7 +58,7 @@ namespace itk
  */
 
 template< unsigned int VDimension = 3, typename TInput = Point< double, 3 > >
-class ConicShellInteriorExteriorSpatialFunction:
+class ITKCommon_TEMPLATE_EXPORT ConicShellInteriorExteriorSpatialFunction:
   public InteriorExteriorSpatialFunction< VDimension, TInput >
 {
 public:

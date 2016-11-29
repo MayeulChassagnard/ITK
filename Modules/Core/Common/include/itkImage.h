@@ -26,6 +26,7 @@
 #include "itkFixedArray.h"
 #include "itkWeakPointer.h"
 #include "itkNeighborhoodAccessorFunctor.h"
+#include "ITKCommonExport.h"
 
 namespace itk
 {
@@ -72,7 +73,7 @@ namespace itk
  * \endwiki
  */
 template< typename TPixel, unsigned int VImageDimension = 2 >
-class Image:public ImageBase< VImageDimension >
+class ITKCommon_TEMPLATE_EXPORT Image:public ImageBase< VImageDimension >
 {
 public:
   /** Standard class typedefs */

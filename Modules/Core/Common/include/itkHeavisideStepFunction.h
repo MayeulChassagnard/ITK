@@ -18,6 +18,7 @@
 #ifndef itkHeavisideStepFunction_h
 #define itkHeavisideStepFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkHeavisideStepFunctionBase.h"
 #include "itkNumericTraits.h"
 
@@ -56,7 +57,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TInput = float, typename TOutput = double >
-class HeavisideStepFunction:
+class ITKCommon_TEMPLATE_EXPORT HeavisideStepFunction:
   public HeavisideStepFunctionBase< TInput, TOutput >
 {
 public:

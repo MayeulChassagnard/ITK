@@ -18,6 +18,7 @@
 #ifndef itkGaussianSpatialFunction_h
 #define itkGaussianSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkSpatialFunction.h"
 #include "itkFixedArray.h"
 #include "itkFloatTypes.h"
@@ -41,7 +42,7 @@ namespace itk
 template< typename TOutput = double,
           unsigned int VImageDimension = 3,
           typename TInput = Point< SpacePrecisionType, VImageDimension > >
-class GaussianSpatialFunction:
+class ITKCommon_TEMPLATE_EXPORT GaussianSpatialFunction:
   public SpatialFunction< TOutput, VImageDimension, TInput >
 {
 public:

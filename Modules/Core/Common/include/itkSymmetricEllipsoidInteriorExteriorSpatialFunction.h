@@ -18,6 +18,7 @@
 #ifndef itkSymmetricEllipsoidInteriorExteriorSpatialFunction_h
 #define itkSymmetricEllipsoidInteriorExteriorSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkInteriorExteriorSpatialFunction.h"
 
 namespace itk
@@ -37,7 +38,7 @@ namespace itk
  */
 template< unsigned int VDimension = 3,
           typename TInput = Point< double, VDimension > >
-class SymmetricEllipsoidInteriorExteriorSpatialFunction:
+class ITKCommon_TEMPLATE_EXPORT SymmetricEllipsoidInteriorExteriorSpatialFunction:
   public InteriorExteriorSpatialFunction< VDimension, TInput >
 {
 public:

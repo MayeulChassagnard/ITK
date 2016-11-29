@@ -28,6 +28,7 @@
 #ifndef itkByteSwapper_h
 #define itkByteSwapper_h
 
+#include "ITKCommonExport.h"
 #include "itkObject.h"
 #include "itkObjectFactory.h"
 #include "itkIntTypes.h"
@@ -47,7 +48,7 @@ namespace itk
  */
 
 template< typename T >
-class ByteSwapper:public Object
+class ITKCommon_TEMPLATE_EXPORT ByteSwapper:public Object
 {
 public:
   /** Standard class typedefs. */

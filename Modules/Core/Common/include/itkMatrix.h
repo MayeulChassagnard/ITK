@@ -18,6 +18,7 @@
 #ifndef itkMatrix_h
 #define itkMatrix_h
 
+#include "ITKCommonExport.h"
 #include "itkPoint.h"
 #include "itkCovariantVector.h"
 
@@ -50,7 +51,7 @@ namespace itk
  */
 
 template< typename T, unsigned int NRows = 3, unsigned int NColumns = 3 >
-class Matrix
+class ITKCommon_TEMPLATE_EXPORT Matrix
 {
 public:
   /** Standard class typedefs. */

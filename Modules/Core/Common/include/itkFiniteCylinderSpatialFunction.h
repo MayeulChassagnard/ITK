@@ -18,6 +18,7 @@
 #ifndef itkFiniteCylinderSpatialFunction_h
 #define itkFiniteCylinderSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkInteriorExteriorSpatialFunction.h"
 #include "itkConceptChecking.h"
 
@@ -37,7 +38,7 @@ namespace itk
 
 template< unsigned int VDimension = 3,
           typename TInput = Point< double, VDimension > >
-class FiniteCylinderSpatialFunction:
+class ITKCommon_TEMPLATE_EXPORT FiniteCylinderSpatialFunction:
   public InteriorExteriorSpatialFunction< VDimension, TInput >
 {
 public:

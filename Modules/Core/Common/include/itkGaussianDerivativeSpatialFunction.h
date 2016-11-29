@@ -18,6 +18,7 @@
 #ifndef itkGaussianDerivativeSpatialFunction_h
 #define itkGaussianDerivativeSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkSpatialFunction.h"
 #include "itkFixedArray.h"
 
@@ -41,7 +42,7 @@ namespace itk
 template< typename TOutput = double,
           unsigned int VImageDimension = 3,
           typename TInput = Point< double, VImageDimension > >
-class GaussianDerivativeSpatialFunction:public SpatialFunction< TOutput, VImageDimension, TInput >
+class ITKCommon_TEMPLATE_EXPORT GaussianDerivativeSpatialFunction:public SpatialFunction< TOutput, VImageDimension, TInput >
 {
 public:
   /** Standard class typedefs. */

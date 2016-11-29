@@ -21,6 +21,7 @@
 #include <queue>
 #include <climits>
 #include "itkTreeIteratorBase.h"
+#include "ITKCommonExport.h"
 
 namespace itk
 {
@@ -31,7 +32,7 @@ namespace itk
  * \ingroup ITKCommon
  */
 template< typename TTreeType >
-class LevelOrderTreeIterator:public TreeIteratorBase< TTreeType >
+class ITKCommon_TEMPLATE_EXPORT LevelOrderTreeIterator:public TreeIteratorBase< TTreeType >
 {
 public:
 

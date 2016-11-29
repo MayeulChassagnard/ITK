@@ -18,6 +18,7 @@
 #ifndef itkInteriorExteriorSpatialFunction_h
 #define itkInteriorExteriorSpatialFunction_h
 
+#include "ITKCommonExport.h"
 #include "itkSpatialFunction.h"
 
 namespace itk
@@ -46,7 +47,7 @@ namespace itk
  */
 
 template< unsigned int VDimension = 3, typename TInput = Point< double, VDimension > >
-class InteriorExteriorSpatialFunction:public
+class ITKCommon_TEMPLATE_EXPORT InteriorExteriorSpatialFunction:public
   SpatialFunction< bool, VDimension, TInput >
 {
 public:
