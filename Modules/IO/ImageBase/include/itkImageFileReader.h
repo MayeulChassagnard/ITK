@@ -73,7 +73,7 @@ namespace itk
 template< typename TOutputImage,
           typename ConvertPixelTraits = DefaultConvertPixelTraits<
             typename TOutputImage::IOPixelType > >
-class ITKIOImageBase_HIDDEN ImageFileReader:public ImageSource< TOutputImage >
+class ITK_TEMPLATE_EXPORT ITKIOImageBase_HIDDEN ImageFileReader:public ImageSource< TOutputImage >
 {
 public:
   /** Standard class typedefs. */

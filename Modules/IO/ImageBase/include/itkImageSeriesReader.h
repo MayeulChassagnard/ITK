@@ -42,7 +42,7 @@ namespace itk
  */
 
 template< typename TOutputImage >
-class ITKIOImageBase_HIDDEN ImageSeriesReader:public ImageSource< TOutputImage >
+class ITK_TEMPLATE_EXPORT ITKIOImageBase_HIDDEN ImageSeriesReader:public ImageSource< TOutputImage >
 {
 public:
   /** Standard class typedefs. */

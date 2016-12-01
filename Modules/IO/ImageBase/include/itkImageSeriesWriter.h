@@ -79,7 +79,7 @@ public:
  * \ingroup ITKIOImageBase
  */
 template< typename TInputImage, typename TOutputImage >
-class ITKIOImageBase_HIDDEN ImageSeriesWriter:public ProcessObject
+class ITK_TEMPLATE_EXPORT ITKIOImageBase_HIDDEN ImageSeriesWriter:public ProcessObject
 {
 public:
   /** Standard class typedefs. */

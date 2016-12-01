@@ -49,7 +49,7 @@ namespace itk
  * \ingroup ITKIOMesh
  */
 template< typename TInputMesh >
-class ITKIOMesh_HIDDEN MeshFileWriter:public ProcessObject
+class ITK_TEMPLATE_EXPORT ITKIOMesh_HIDDEN MeshFileWriter:public ProcessObject
 {
 public:
   /** Standard class typedefs. */

@@ -179,6 +179,23 @@ namespace itk
   #endif
 #endif
 
+// Setup symbol exports
+#ifndef ITK_TEMPLATE_EXPORT
+  #if defined( _WIN32 ) || defined ( WIN32 )
+    #define ITK_TEMPLATE_EXPORT
+  #else
+    #if __APPLE__ && __MACH__
+      #if ITK_TEMPLATE_VISIBILITY_DEFAULT
+        #define ITK_TEMPLATE_EXPORT __attribute__ ((visibility ("default")))
+      #else
+        #define ITK_TEMPLATE_EXPORT
+      #endif
+    #else
+      #define ITK_TEMPLATE_EXPORT
+    #endif
+  #endif
+#endif
+
 #if ITK_COMPILED_CXX_STANDARD_VERSION >= 201103L
   #define ITK_HAS_CXX11_RVREF
 #endif
