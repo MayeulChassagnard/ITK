@@ -114,6 +114,11 @@ If this is not set during the initial configuration, it will have no effect." OF
 mark_as_advanced(ITK_USE_SYSTEM_LIBRARIES)
 
 #-----------------------------------------------------------------------------
+# Make default visibility as an option for generated export header
+option(ITK_TEMPLATE_VISIBILITY_DEFAULT "Use default visibility" ON)
+mark_as_advanced(ITK_TEMPLATE_VISIBILITY_DEFAULT)
+
+#-----------------------------------------------------------------------------
 # Enable the download and use of BrainWeb datasets.
 # When this data is available, additional 3D tests are enabled.
 option(ITK_USE_BRAINWEB_DATA "Download and use BrainWeb data for advanced testing" OFF)

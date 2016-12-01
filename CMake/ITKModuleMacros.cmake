@@ -208,14 +208,7 @@ macro(itk_module_impl)
     add_subdirectory(src)
   endif()
 
-
-  if( ITK_MODULE_${itk-module}_ENABLE_SHARED )
-    if(ITK_SOURCE_DIR)
-      set(_export_header_file "${ITKCommon_BINARY_DIR}/${itk-module}Export.h")
-    else()
-      set(_export_header_file "${${itk-module}_BINARY_DIR}/include/${itk-module}Export.h")
-    endif()
-
+  if( ITK_TEMPLATE_VISIBILITY_DEFAULT )
     # Generate the export macro header for symbol visibility/Windows DLL declspec
     generate_export_header(${itk-module}
       EXPORT_FILE_NAME ${_export_header_file}
@@ -228,6 +221,14 @@ macro(itk_module_impl)
       DESTINATION ${${itk-module}_INSTALL_INCLUDE_DIR}
       COMPONENT Development
       )
+  endif()
+
+  if( ITK_MODULE_${itk-module}_ENABLE_SHARED )
+    if(ITK_SOURCE_DIR)
+      set(_export_header_file "${ITKCommon_BINARY_DIR}/${itk-module}Export.h")
+    else()
+      set(_export_header_file "${${itk-module}_BINARY_DIR}/include/${itk-module}Export.h")
+    endif()
 
     if (BUILD_SHARED_LIBS)
       # export flags are only added when building shared libs, they cause

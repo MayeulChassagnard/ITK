@@ -1141,6 +1141,10 @@ CLANG_PRAGMA_POP                                       \
 // For backwards compatibility define ITK_EXPORT to nothing
 #define ITK_EXPORT
 
+// Define default visibility
+#if defined( ITK_TEMPLATE_VISIBILITY_DEFAULT )
+#define ITK_TEMPLATE_VISIBILITY_DEFAULT
+#endif
 
 /** Get a const reference to a smart pointer to an object.
  * Creates the member Get"name"() (e.g., GetPoints()). */
